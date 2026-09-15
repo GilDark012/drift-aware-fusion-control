@@ -41,7 +41,8 @@ src = ["src", "tests"]
 # tooling (not the research package). Neither is maintained/linted as source code.
 extend-exclude = ["legacy", "build_first_draft_report.py",
                   "build_latex_style_pfe_pdf.py",
-                  "build_aivancity_template_thesis.py", "thesis_content.py"]
+                  "build_aivancity_template_thesis.py", "thesis_content.py",
+                  "build_overleaf_project.py"]
 
 [tool.ruff.lint]
 select = ["E", "F", "W", "I", "N", "D", "UP", "B", "A", "C4", "SIM", "ARG", "PTH", "RET", "C90"]
