@@ -77,9 +77,9 @@ def build_recovery_curve(
             counts[int(position)] += 1
     rel_pos = np.arange(lo, hi + 1, dtype=np.int64)
     hit_rate = np.array(
-        [sums[p] / counts[p] if counts[p] else np.nan for p in rel_pos]
+        [sums[int(p)] / counts[int(p)] if counts[int(p)] else np.nan for p in rel_pos]
     )
-    count = np.array([counts[p] for p in rel_pos], dtype=np.int64)
+    count = np.array([counts[int(p)] for p in rel_pos], dtype=np.int64)
     return RecoveryCurve(rel_pos=rel_pos, hit_rate=hit_rate, count=count)
 
 

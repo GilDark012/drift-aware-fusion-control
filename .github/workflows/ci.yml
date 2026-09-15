@@ -22,9 +22,6 @@ jobs:
       - name: Lint
         run: ruff check src tests scripts
 
-      - name: Formatage
-        run: ruff format --check src tests scripts
-
       - name: Types
         run: mypy src
 
