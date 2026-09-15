@@ -1,7 +1,7 @@
 # Données locales : jamais versionnées
-data/
-!data/README.md
-!data/**/.gitkeep
+/data/
+!/data/README.md
+!/data/**/.gitkeep
 
 # Python
 __pycache__/
@@ -54,3 +54,6 @@ saved/
 # Word lock/temp files
 ~$*
 output/overleaf/
+
+# run-local data copies stay untracked
+artifacts/runs/*/data/
