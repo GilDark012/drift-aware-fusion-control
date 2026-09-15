@@ -1,0 +1,4 @@
+2026-08-27 22:50:21 | INFO     | lab.20260827-205021__second-dataset | [run] start Coherent-drift adaptation replicated on Electronics alone
+2026-08-27 22:57:14 | INFO     | lab.20260827-205021__second-dataset | [report] table_saved second-dataset-means.csv
+2026-08-27 22:57:14 | INFO     | lab.20260827-205021__second-dataset | [report] table_saved second-dataset-diffs.csv
+2026-08-27 22:57:14 | INFO     | lab.20260827-205021__second-dataset | [run] end completed

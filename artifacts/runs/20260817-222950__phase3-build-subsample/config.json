@@ -1,0 +1,18 @@
+{
+  "task": "phase3-build-subsample",
+  "description": "Stratified evaluable-cohort subsample for fast iteration",
+  "params": {
+    "seed": 42,
+    "target_users": 3000,
+    "min_test_interactions": 20,
+    "activity_strata": 3,
+    "processed_dir": "data\\processed",
+    "out_dir": "data\\interim\\subsample"
+  },
+  "tags": [
+    "phase3",
+    "subsample"
+  ],
+  "seed": 42,
+  "dataset": "amazon-processed"
+}

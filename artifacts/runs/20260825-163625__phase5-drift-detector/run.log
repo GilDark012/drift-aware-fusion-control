@@ -1,0 +1,15 @@
+2026-08-25 18:36:25 | INFO     | lab.20260825-163625__phase5-drift-detector | [run] start Persistence-aware detector: tune alarm rate on validation (H5/H6)
+2026-08-25 18:36:25 | INFO     | lab.20260825-163625__phase5-drift-detector | [drift] tuning_start 222 val users
+2026-08-25 18:36:27 | INFO     | lab.20260825-163625__phase5-drift-detector | metric users_tuned[val]=86 step=0
+2026-08-25 18:36:27 | INFO     | lab.20260825-163625__phase5-drift-detector | metric confirmed_per_1k[val]=0.49875311720698257 step=1
+2026-08-25 18:36:27 | INFO     | lab.20260825-163625__phase5-drift-detector | metric confirmed_per_1k[val]=0.0 step=3
+2026-08-25 18:36:27 | INFO     | lab.20260825-163625__phase5-drift-detector | metric confirmed_per_1k[val]=0.0 step=5
+2026-08-25 18:36:27 | INFO     | lab.20260825-163625__phase5-drift-detector | metric confirmed_per_1k[val]=0.0 step=8
+2026-08-25 18:36:27 | INFO     | lab.20260825-163625__phase5-drift-detector | metric confirmed_per_1k[val]=0.0 step=12
+2026-08-25 18:36:27 | INFO     | lab.20260825-163625__phase5-drift-detector | [report] figure_saved persistence-sweep.png
+2026-08-25 18:36:27 | INFO     | lab.20260825-163625__phase5-drift-detector | [report] table_saved h6-strategy-by-stratum.csv
+2026-08-25 18:36:27 | INFO     | lab.20260825-163625__phase5-drift-detector | [report] figure_saved strategy-by-stratum.png
+2026-08-25 18:36:27 | INFO     | lab.20260825-163625__phase5-drift-detector | metric chosen_confirmed_per_1k[val]=0.0 step=0
+2026-08-25 18:36:27 | INFO     | lab.20260825-163625__phase5-drift-detector | metric chosen_temporary_per_1k[val]=4.488778054862843 step=0
+2026-08-25 18:36:27 | INFO     | lab.20260825-163625__phase5-drift-detector | metric chosen_users_with_confirm[val]=0.0 step=0
+2026-08-25 18:36:29 | INFO     | lab.20260825-163625__phase5-drift-detector | [run] end completed

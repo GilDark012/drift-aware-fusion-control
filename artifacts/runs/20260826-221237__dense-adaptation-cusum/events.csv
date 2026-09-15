@@ -1,0 +1,5 @@
+timestamp,level,stage,event,detail
+2026-08-26T22:12:37.858546+00:00,INFO,run,start,CUSUM-driven adaptive fusion vs static-0.8 and window-B (dense)
+2026-08-26T22:12:44.771425+00:00,INFO,report,table_saved,dense-adaptation.csv
+2026-08-26T22:12:44.978745+00:00,INFO,report,figure_saved,dense-recovery-curves.png
+2026-08-26T22:12:44.979743+00:00,INFO,run,end,completed

@@ -1,0 +1,13 @@
+timestamp,level,stage,event,detail
+2026-08-19T07:08:30.983835+00:00,INFO,run,start,Control vs injected; baselines A/B/D vs proposed; recovery curves
+2026-08-19T07:08:30.983835+00:00,INFO,evaluation,scenario_start,sudden
+2026-08-19T07:08:46.209024+00:00,INFO,report,figure_saved,recovery-full-sudden.png
+2026-08-19T07:08:46.386363+00:00,INFO,report,figure_saved,recovery-detected-sudden.png
+2026-08-19T07:08:46.402372+00:00,INFO,evaluation,scenario_start,gradual
+2026-08-19T07:09:05.956775+00:00,INFO,report,figure_saved,recovery-full-gradual.png
+2026-08-19T07:09:06.130937+00:00,INFO,report,figure_saved,recovery-detected-gradual.png
+2026-08-19T07:09:06.143940+00:00,INFO,evaluation,scenario_start,recurring
+2026-08-19T07:09:25.389196+00:00,INFO,report,figure_saved,recovery-full-recurring.png
+2026-08-19T07:09:25.556888+00:00,INFO,report,figure_saved,recovery-detected-recurring.png
+2026-08-19T07:09:25.572377+00:00,INFO,report,table_saved,policy-scenario-summary.csv
+2026-08-19T07:09:25.572377+00:00,INFO,run,end,completed

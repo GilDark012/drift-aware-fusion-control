@@ -1,0 +1,24 @@
+{
+  "task": "phase8-full-evaluation",
+  "description": "Control vs injected; baselines A/B/D vs proposed; recovery curves",
+  "params": {
+    "policies": [
+      "static-A",
+      "window-B",
+      "continuous-D",
+      "proposed"
+    ],
+    "scenarios": [
+      "sudden",
+      "gradual",
+      "recurring"
+    ],
+    "top_k": 10
+  },
+  "tags": [
+    "phase8",
+    "evaluation"
+  ],
+  "seed": 42,
+  "dataset": "amazon-subsample"
+}

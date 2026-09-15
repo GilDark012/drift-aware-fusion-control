@@ -1,0 +1,7 @@
+timestamp,level,stage,event,detail
+2026-08-25T15:16:44.117930+00:00,INFO,run,start,Fixed-α=0.5 long/short fusion baseline (subsample)
+2026-08-25T15:16:44.117930+00:00,INFO,data,subsample_loaded,"{'train': 478789, 'val': 11693, 'test': 81724}"
+2026-08-25T15:16:45.035570+00:00,INFO,model,train_start,220736 items
+2026-08-25T15:23:51.498962+00:00,INFO,model,train_done,device=cuda
+2026-08-25T15:23:57.064165+00:00,INFO,model,checkpoint_saved,artifacts/models/baseline-subsample
+2026-08-25T15:23:57.064165+00:00,INFO,run,end,completed

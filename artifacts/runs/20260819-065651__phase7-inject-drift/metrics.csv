@@ -1,0 +1,13 @@
+timestamp,step,split,metric,value,unit,context
+2026-08-19T06:56:51.576719+00:00,0,all,injected_users,300.0,users,sudden
+2026-08-19T06:56:55.659001+00:00,0,all,detection_rate,0.04666666666666667,,sudden
+2026-08-19T06:56:55.662270+00:00,0,all,false_alarm_rate,0.006666666666666667,,sudden
+2026-08-19T06:56:55.662270+00:00,0,all,median_detection_latency,10.0,interactions,sudden
+2026-08-19T06:56:56.256940+00:00,0,all,injected_users,300.0,users,gradual
+2026-08-19T06:57:00.493590+00:00,0,all,detection_rate,0.04,,gradual
+2026-08-19T06:57:00.493590+00:00,0,all,false_alarm_rate,0.006666666666666667,,gradual
+2026-08-19T06:57:00.493590+00:00,0,all,median_detection_latency,9.5,interactions,gradual
+2026-08-19T06:57:01.022434+00:00,0,all,injected_users,300.0,users,recurring
+2026-08-19T06:57:06.262501+00:00,0,all,detection_rate,0.05333333333333334,,recurring
+2026-08-19T06:57:06.262501+00:00,0,all,false_alarm_rate,0.006666666666666667,,recurring
+2026-08-19T06:57:06.262501+00:00,0,all,median_detection_latency,10.0,interactions,recurring

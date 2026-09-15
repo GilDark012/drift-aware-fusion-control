@@ -1,0 +1,9 @@
+timestamp,step,split,metric,value,unit,context
+2026-08-17T22:29:53.741714+00:00,0,train,subsample_rows,39943.0,rows,
+2026-08-17T22:29:53.741714+00:00,0,train,unseen_item_rate,0.0,,
+2026-08-17T22:29:53.741714+00:00,0,val,subsample_rows,11693.0,rows,
+2026-08-17T22:29:53.741714+00:00,0,val,unseen_item_rate,0.7763619259385958,,
+2026-08-17T22:29:53.742716+00:00,0,test,subsample_rows,81724.0,rows,
+2026-08-17T22:29:53.742716+00:00,0,test,unseen_item_rate,0.8064460868288386,,
+2026-08-17T22:29:53.742716+00:00,0,all,selected_users,3000.0,users,
+2026-08-17T22:29:53.742716+00:00,0,all,item_vocab,32158.0,items,

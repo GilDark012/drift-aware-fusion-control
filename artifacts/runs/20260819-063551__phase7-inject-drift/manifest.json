@@ -1,0 +1,30 @@
+{
+  "run_id": "20260819-063551__phase7-inject-drift",
+  "task": "phase7-inject-drift",
+  "description": "Controlled sudden/gradual/recurring preference shifts + sanity",
+  "status": "completed",
+  "started_at": "2026-08-19T06:35:51.991588Z",
+  "finished_at": "2026-08-19T06:36:12.982253Z",
+  "duration_seconds": 20.990665,
+  "git_commit": "652dfa377d6de1a43f19a24d48af46cb180b0be4",
+  "python_version": "3.11.4",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "seed": 42,
+  "dataset": "amazon-subsample",
+  "tags": [
+    "phase7",
+    "injection"
+  ],
+  "metric_count": 12,
+  "event_count": 8,
+  "artifacts": {
+    "config.json": "310d70b799266cb881d80ee86d3c95036dcdff2b696fca5b584e4b8260656e56",
+    "events.csv": "4c61f2242aa430635f8ee7a11de5c73cb059db28782f10bf03f10f430cdce8a7",
+    "figures\\injection-gradual.png": "4b74eecbac770c58d9375d91e17650656c77d021ffa41f5e81d31b4b24de8eac",
+    "figures\\injection-recurring.png": "d54ab5bfaed82cb85a4b3c2094c0165ec5f6166ba558196ed7d53593181ceec0",
+    "figures\\injection-sudden.png": "329f6e364262c06622265d2c3e1213638a604cdd8d409f10eb6f9d717f6231a1",
+    "metrics.csv": "59e4f96e25ee0d3ea303b0cd21c0cc1228147a2172cf366c7084c26acb67882d",
+    "run.log": "1cf1975484e00e321b42265f60155fdc9ca5e3cfe7e36de2b425df29b343a612"
+  },
+  "error": null
+}

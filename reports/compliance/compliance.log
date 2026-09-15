@@ -1,0 +1,41 @@
+2026-08-18 00:03:30 | INFO     | rapport écrit : C:\Users\gilal\Downloads\PFE_rec\reports\compliance\20260818-000330.md
+2026-08-18 00:03:30 | INFO     | verdict : 12 contrôle(s) OK, 1 avertissement(s), 1 erreur(s)
+2026-08-18 00:03:30 | WARNING  | Suite de tests (`pytest`) — ERROR: usage: pytest [options] [file_or_dir] [file_or_dir] [...]
+2026-08-18 00:03:30 | WARNING  | Chaque module de `src/` a un test correspondant — module sans test : `src\drift_reco\config\constants.py`
+2026-08-18 00:09:47 | INFO     | rapport écrit : C:\Users\gilal\Downloads\PFE_rec\reports\compliance\20260818-000947.md
+2026-08-18 00:09:47 | INFO     | verdict : 15 contrôle(s) OK, 0 avertissement(s), 1 erreur(s)
+2026-08-18 00:09:47 | WARNING  | Lint et formatage (`ruff`) —   --> splitter.py:66:9
+2026-08-18 00:51:34 | INFO     | rapport écrit : C:\Users\gilal\Downloads\PFE_rec\reports\compliance\20260818-005134.md
+2026-08-18 00:51:34 | INFO     | verdict : 15 contrôle(s) OK, 1 avertissement(s), 0 erreur(s)
+2026-08-18 00:51:34 | WARNING  | Absence de duplication de logique (DRY) — implémentations identiques : `src\drift_reco\data\subsample.py:99` `_load`, `src\drift_reco\data\validation.py:80` `load`
+2026-08-18 00:52:46 | INFO     | rapport écrit : C:\Users\gilal\Downloads\PFE_rec\reports\compliance\20260818-005246.md
+2026-08-18 00:52:46 | INFO     | verdict : 16 contrôle(s) OK, 0 avertissement(s), 0 erreur(s)
+2026-08-19 06:50:47 | INFO     | rapport écrit : C:\Users\gilal\Downloads\PFE_rec\reports\compliance\20260819-065047.md
+2026-08-19 06:50:47 | INFO     | verdict : 16 contrôle(s) OK, 0 avertissement(s), 0 erreur(s)
+2026-08-19 07:10:35 | INFO     | rapport écrit : C:\Users\gilal\Downloads\PFE_rec\reports\compliance\20260819-071035.md
+2026-08-19 07:10:35 | INFO     | verdict : 16 contrôle(s) OK, 0 avertissement(s), 0 erreur(s)
+2026-08-19 07:33:26 | INFO     | rapport écrit : C:\Users\gilal\Downloads\PFE_rec\reports\compliance\20260819-073326.md
+2026-08-19 07:33:26 | INFO     | verdict : 15 contrôle(s) OK, 1 avertissement(s), 0 erreur(s)
+2026-08-19 07:33:26 | WARNING  | Absence de duplication de logique (DRY) — implémentations identiques : `src\drift_reco\detectors\trajectory.py:120` `_to`, `src\drift_reco\evaluation\streaming.py:113` `_t`
+2026-08-19 07:35:48 | INFO     | rapport écrit : C:\Users\gilal\Downloads\PFE_rec\reports\compliance\20260819-073548.md
+2026-08-19 07:35:48 | INFO     | verdict : 16 contrôle(s) OK, 0 avertissement(s), 0 erreur(s)
+2026-08-19 08:50:48 | INFO     | rapport écrit : C:\Users\gilal\Downloads\PFE_rec\reports\compliance\20260819-085048.md
+2026-08-19 08:50:48 | INFO     | verdict : 15 contrôle(s) OK, 1 avertissement(s), 0 erreur(s)
+2026-08-19 08:50:48 | WARNING  | Taille des fichiers et des fonctions (clean code) — `src\drift_reco\evaluation\streaming.py:77` : `__init__` prend 8 paramètres (> 7) — regrouper dans un modèle
+2026-08-19 08:52:14 | INFO     | rapport écrit : C:\Users\gilal\Downloads\PFE_rec\reports\compliance\20260819-085214.md
+2026-08-19 08:52:14 | INFO     | verdict : 15 contrôle(s) OK, 1 avertissement(s), 0 erreur(s)
+2026-08-19 08:52:14 | WARNING  | Taille des fichiers et des fonctions (clean code) — `src\drift_reco\evaluation\streaming.py:144` : `run_user` fait 52 lignes (> 50)
+2026-08-19 08:55:10 | INFO     | rapport écrit : C:\Users\gilal\Downloads\PFE_rec\reports\compliance\20260819-085510.md
+2026-08-19 08:55:10 | INFO     | verdict : 15 contrôle(s) OK, 0 avertissement(s), 1 erreur(s)
+2026-08-19 08:55:10 | WARNING  | Lint et formatage (`ruff`) — E501 Line too long (89 > 88)
+2026-08-19 08:56:26 | INFO     | rapport écrit : C:\Users\gilal\Downloads\PFE_rec\reports\compliance\20260819-085626.md
+2026-08-19 08:56:26 | INFO     | verdict : 16 contrôle(s) OK, 0 avertissement(s), 0 erreur(s)
+2026-08-19 09:19:58 | INFO     | rapport écrit : C:\Users\gilal\Downloads\PFE_rec\reports\compliance\20260819-091958.md
+2026-08-19 09:19:58 | INFO     | verdict : 16 contrôle(s) OK, 0 avertissement(s), 0 erreur(s)
+2026-08-25 17:57:29 | INFO     | rapport écrit : C:\Users\gilal\Downloads\PFE_rec\reports\compliance\20260825-175729.md
+2026-08-25 17:57:29 | INFO     | verdict : 15 contrôle(s) OK, 0 avertissement(s), 1 erreur(s)
+2026-08-25 17:57:29 | WARNING  | Lint et formatage (`ruff`) —     |
+2026-08-25 17:59:12 | INFO     | rapport écrit : C:\Users\gilal\Downloads\PFE_rec\reports\compliance\20260825-175912.md
+2026-08-25 17:59:12 | INFO     | verdict : 16 contrôle(s) OK, 0 avertissement(s), 0 erreur(s)
+2026-08-25 18:40:22 | INFO     | rapport écrit : C:\Users\gilal\Downloads\PFE_rec\reports\compliance\20260825-184022.md
+2026-08-25 18:40:22 | INFO     | verdict : 16 contrôle(s) OK, 0 avertissement(s), 0 erreur(s)

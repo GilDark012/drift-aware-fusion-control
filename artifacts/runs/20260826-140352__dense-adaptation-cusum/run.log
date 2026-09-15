@@ -1,0 +1,8 @@
+2026-08-26 16:03:52 | INFO     | lab.20260826-140352__dense-adaptation-cusum | [run] start CUSUM-driven adaptive fusion vs static-0.8 and window-B (dense)
+2026-08-26 16:03:53 | INFO     | lab.20260826-140352__dense-adaptation-cusum | metric cusum_enter[all]=0.5 step=0
+2026-08-26 16:03:54 | INFO     | lab.20260826-140352__dense-adaptation-cusum | metric recovery_latency[all]=8.0 step=0
+2026-08-26 16:03:56 | INFO     | lab.20260826-140352__dense-adaptation-cusum | metric recovery_latency[all]=8.0 step=0
+2026-08-26 16:03:57 | INFO     | lab.20260826-140352__dense-adaptation-cusum | metric recovery_latency[all]=8.0 step=0
+2026-08-26 16:03:57 | INFO     | lab.20260826-140352__dense-adaptation-cusum | [report] table_saved dense-adaptation.csv
+2026-08-26 16:03:58 | INFO     | lab.20260826-140352__dense-adaptation-cusum | [report] figure_saved dense-recovery-curves.png
+2026-08-26 16:03:58 | INFO     | lab.20260826-140352__dense-adaptation-cusum | [run] end completed

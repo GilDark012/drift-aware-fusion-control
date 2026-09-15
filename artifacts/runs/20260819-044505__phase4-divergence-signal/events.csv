@@ -1,0 +1,12 @@
+timestamp,level,stage,event,detail
+2026-08-19T04:45:05.799472+00:00,INFO,run,start,"Long/short divergence D(L,S) via cosine over the backbone"
+2026-08-19T04:45:05.800482+00:00,INFO,drift,trajectories_start,metric=cosine
+2026-08-19T04:45:10.584880+00:00,INFO,report,figure_saved,population-category-effect.png
+2026-08-19T04:45:10.720049+00:00,INFO,report,figure_saved,divergence-distribution.png
+2026-08-19T04:45:10.935975+00:00,INFO,report,figure_saved,trajectory-user-11227.png
+2026-08-19T04:45:11.117662+00:00,INFO,report,figure_saved,trajectory-user-13383.png
+2026-08-19T04:45:11.287624+00:00,INFO,report,figure_saved,trajectory-user-1091.png
+2026-08-19T04:45:11.685000+00:00,INFO,report,figure_saved,trajectory-user-17959.png
+2026-08-19T04:45:11.897111+00:00,INFO,report,figure_saved,trajectory-user-8378.png
+2026-08-19T04:45:12.093644+00:00,INFO,report,figure_saved,trajectory-user-2140.png
+2026-08-19T04:45:12.137871+00:00,INFO,run,end,completed

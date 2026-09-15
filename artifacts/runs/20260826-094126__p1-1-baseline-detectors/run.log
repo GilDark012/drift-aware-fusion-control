@@ -1,0 +1,4 @@
+2026-08-26 11:41:26 | INFO     | lab.20260826-094126__p1-1-baseline-detectors | [run] start Our detector vs Page-Hinkley/CUSUM/ADWIN on the same divergence
+2026-08-26 11:41:28 | INFO     | lab.20260826-094126__p1-1-baseline-detectors | [report] table_saved detector-operating-points.csv
+2026-08-26 11:41:28 | INFO     | lab.20260826-094126__p1-1-baseline-detectors | [report] figure_saved detector-comparison-sudden.png
+2026-08-26 11:41:28 | INFO     | lab.20260826-094126__p1-1-baseline-detectors | [run] end completed

@@ -1,0 +1,27 @@
+{
+  "task": "dense-alpha-probe",
+  "description": "Does α>0 beat α=0 on a dense long-history cohort?",
+  "params": {
+    "dense": {
+      "k_core": 5,
+      "min_test": 5,
+      "min_train": 50
+    },
+    "n_items": 11581,
+    "alphas": [
+      0.0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0
+    ]
+  },
+  "tags": [
+    "adaptation",
+    "alpha-sweep",
+    "dense"
+  ],
+  "seed": 42,
+  "dataset": "amazon-subsample-dense"
+}

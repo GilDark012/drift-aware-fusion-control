@@ -1,0 +1,13 @@
+{
+  "n_items": 10736,
+  "architecture": {
+    "embedding_dim": 128,
+    "short_window": 10,
+    "gru_layers": 1,
+    "dropout": 0.1,
+    "long_term_mode": "attention",
+    "ewma_halflife": 20.0,
+    "max_history": 50,
+    "min_context": 2
+  }
+}

@@ -1,0 +1,6 @@
+2026-08-26 16:06:00 | INFO     | lab.20260826-140600__dense-adaptation-seeds | [run] start Seed-robustness of CUSUM adaptive fusion (coherent drift)
+2026-08-26 16:07:11 | INFO     | lab.20260826-140600__dense-adaptation-seeds | [report] table_saved adaptation-seed-robustness.csv
+2026-08-26 16:07:11 | INFO     | lab.20260826-140600__dense-adaptation-seeds | metric proposed_minus_static_mean[all]=0.00030880260306061946 step=0
+2026-08-26 16:07:11 | INFO     | lab.20260826-140600__dense-adaptation-seeds | metric proposed_minus_static_ci95[all]=0.0004501511604072786 step=0
+2026-08-26 16:07:11 | INFO     | lab.20260826-140600__dense-adaptation-seeds | metric win_rate[all]=0.6666666666666666 step=0
+2026-08-26 16:07:11 | INFO     | lab.20260826-140600__dense-adaptation-seeds | [run] end completed

@@ -1,0 +1,4 @@
+timestamp,level,stage,event,detail
+2026-08-26T09:01:50.476684+00:00,INFO,run,start,Detection/false-alarm CIs over injection seeds (sudden)
+2026-08-26T09:01:53.070097+00:00,INFO,report,table_saved,seed-robustness.csv
+2026-08-26T09:01:53.072102+00:00,INFO,run,end,completed

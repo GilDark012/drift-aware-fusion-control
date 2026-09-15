@@ -1,0 +1,4 @@
+2026-08-26 15:17:43 | INFO     | lab.20260826-131743__post-drift-alpha-probe | [run] start Fixed-α sweep on injected streams, split pre/post onset (dense)
+2026-08-26 15:17:53 | INFO     | lab.20260826-131743__post-drift-alpha-probe | [report] table_saved post-drift-alpha-sweep.csv
+2026-08-26 15:17:53 | ERROR    | lab.20260826-131743__post-drift-alpha-probe | run failed: 'charmap' codec can't encode character '\u03b1' in position 64: character maps to <undefined>
+2026-08-26 15:17:53 | ERROR    | lab.20260826-131743__post-drift-alpha-probe | [run] failed 'charmap' codec can't encode character '\u03b1' in position 64: character maps to <undefined>

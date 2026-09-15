@@ -1,0 +1,1 @@
+[2026-08-17T22:01:39.224743+00:00] WARNING: pre-generated test_drifted.parquet is index-inconsistent (item_id changed but item_idx unchanged) — not usable for training; controlled drift must be re-injected at the preference-sequence level

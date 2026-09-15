@@ -1,0 +1,20 @@
+{
+  "task": "p1-1-baseline-detectors",
+  "description": "Our detector vs Page-Hinkley/CUSUM/ADWIN on the same divergence",
+  "params": {
+    "n_users": 300,
+    "detectors": [
+      "ours",
+      "page-hinkley",
+      "cusum",
+      "adwin"
+    ]
+  },
+  "tags": [
+    "p1-1",
+    "baselines",
+    "drift-detection"
+  ],
+  "seed": 42,
+  "dataset": "amazon-subsample"
+}

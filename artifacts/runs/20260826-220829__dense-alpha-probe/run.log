@@ -1,0 +1,11 @@
+2026-08-27 00:08:29 | INFO     | lab.20260826-220829__dense-alpha-probe | [run] start Does α>0 beat α=0 on a dense long-history cohort?
+2026-08-27 00:08:30 | INFO     | lab.20260826-220829__dense-alpha-probe | [model] train_start 11581 items
+2026-08-27 00:09:43 | INFO     | lab.20260826-220829__dense-alpha-probe | metric train_loss[train]=3.193748353731514 step=0
+2026-08-27 00:09:44 | INFO     | lab.20260826-220829__dense-alpha-probe | [report] table_saved alpha-sweep.csv
+2026-08-27 00:09:44 | INFO     | lab.20260826-220829__dense-alpha-probe | metric ndcg_at_10[test]=0.01328 step=0
+2026-08-27 00:09:44 | INFO     | lab.20260826-220829__dense-alpha-probe | metric ndcg_at_10[test]=0.0149 step=20
+2026-08-27 00:09:44 | INFO     | lab.20260826-220829__dense-alpha-probe | metric ndcg_at_10[test]=0.01559 step=40
+2026-08-27 00:09:44 | INFO     | lab.20260826-220829__dense-alpha-probe | metric ndcg_at_10[test]=0.01475 step=60
+2026-08-27 00:09:44 | INFO     | lab.20260826-220829__dense-alpha-probe | metric ndcg_at_10[test]=0.01304 step=80
+2026-08-27 00:09:44 | INFO     | lab.20260826-220829__dense-alpha-probe | metric ndcg_at_10[test]=0.00932 step=100
+2026-08-27 00:09:44 | INFO     | lab.20260826-220829__dense-alpha-probe | [run] end completed

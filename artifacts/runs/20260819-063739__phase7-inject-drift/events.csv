@@ -1,0 +1,9 @@
+timestamp,level,stage,event,detail
+2026-08-19T06:37:39.379132+00:00,INFO,run,start,Controlled sudden/gradual/recurring preference shifts + sanity
+2026-08-19T06:37:39.767161+00:00,INFO,injection,saved,sudden -> injected_sudden.parquet
+2026-08-19T06:37:44.657196+00:00,INFO,report,figure_saved,injection-sudden.png
+2026-08-19T06:37:45.034656+00:00,INFO,injection,saved,gradual -> injected_gradual.parquet
+2026-08-19T06:37:50.461736+00:00,INFO,report,figure_saved,injection-gradual.png
+2026-08-19T06:37:50.841697+00:00,INFO,injection,saved,recurring -> injected_recurring.parquet
+2026-08-19T06:37:57.083182+00:00,INFO,report,figure_saved,injection-recurring.png
+2026-08-19T06:37:57.084182+00:00,INFO,run,end,completed

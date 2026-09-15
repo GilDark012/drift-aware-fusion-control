@@ -1,0 +1,29 @@
+{
+  "run_id": "20260826-220829__dense-alpha-probe",
+  "task": "dense-alpha-probe",
+  "description": "Does α>0 beat α=0 on a dense long-history cohort?",
+  "status": "completed",
+  "started_at": "2026-08-26T22:08:29.901325Z",
+  "finished_at": "2026-08-26T22:09:44.216297Z",
+  "duration_seconds": 74.314972,
+  "git_commit": "eef23efcbb2299047fdb33847543cc795cca5a2d",
+  "python_version": "3.11.4",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "seed": 42,
+  "dataset": "amazon-subsample-dense",
+  "tags": [
+    "adaptation",
+    "alpha-sweep",
+    "dense"
+  ],
+  "metric_count": 7,
+  "event_count": 4,
+  "artifacts": {
+    "config.json": "cd48b3a3883e741c997d2f3e839af9a6739b14f0864ebfd7d36bd3d80e9e0bd0",
+    "data\\alpha-sweep.csv": "3fc0097e5b8dbde1cb52581f8519a9c39086b00e7992fe34e44a7d871d4769b2",
+    "events.csv": "913f9c13adeced5276d5e674a6c73604ee20228355c09fdc74a2760157e05d77",
+    "metrics.csv": "67d83fb5a63f2d7df782f2280edebd71863d01b8105acfe12fcf806fcb4f11b5",
+    "run.log": "cf69662b8a3c4c481428db6a08a09930613c390567aad0d80846e58acd78c6c3"
+  },
+  "error": null
+}

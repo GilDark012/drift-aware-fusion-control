@@ -1,0 +1,30 @@
+{
+  "run_id": "20260826-094126__p1-1-baseline-detectors",
+  "task": "p1-1-baseline-detectors",
+  "description": "Our detector vs Page-Hinkley/CUSUM/ADWIN on the same divergence",
+  "status": "completed",
+  "started_at": "2026-08-26T09:41:26.518760Z",
+  "finished_at": "2026-08-26T09:41:28.649147Z",
+  "duration_seconds": 2.130387,
+  "git_commit": "bc10e70ee4bd9712c8918407c3008c352d8bc0c4",
+  "python_version": "3.11.4",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "seed": 42,
+  "dataset": "amazon-subsample",
+  "tags": [
+    "p1-1",
+    "baselines",
+    "drift-detection"
+  ],
+  "metric_count": 0,
+  "event_count": 4,
+  "artifacts": {
+    "config.json": "58ec3a7d87fa3a7250d1d43d3f1219d1ba0c521b4874305d8f7ef36f1b2b308d",
+    "data\\detector-operating-points.csv": "1b97af3c747871d1211a9edd60a48943c465cee9a505611b0ab64681cb71a28d",
+    "events.csv": "26bc809316bb68d733e7cf6de383abd46159c6066b043bcdab4da8069c4af3ec",
+    "figures\\detector-comparison-sudden.png": "e4836598dffb66b0ac6405b5b6500ff40c0721d36f4c243f2b75287f6da4e225",
+    "metrics.csv": "2b4595ccdf99e29ac6acc543c3e8dbc0226d69e6f7665b0d9d2a6241358c9f3a",
+    "run.log": "93ecdfee9aca5e3d0dad43729cf7df99633447aafe9f7b1631c7d274f071c356"
+  },
+  "error": null
+}

@@ -1,0 +1,29 @@
+{
+  "run_id": "20260826-140811__dense-adaptation-seeds",
+  "task": "dense-adaptation-seeds",
+  "description": "Seed-robustness of CUSUM adaptive fusion (coherent drift)",
+  "status": "completed",
+  "started_at": "2026-08-26T14:08:11.427075Z",
+  "finished_at": "2026-08-26T14:11:17.370693Z",
+  "duration_seconds": 185.943618,
+  "git_commit": "18bb5cd9262f9e8ab6f9bdff72339f6d141b9f04",
+  "python_version": "3.11.4",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "seed": 42,
+  "dataset": "amazon-subsample-dense",
+  "tags": [
+    "adaptation",
+    "seeds",
+    "coherent"
+  ],
+  "metric_count": 3,
+  "event_count": 3,
+  "artifacts": {
+    "config.json": "d316a2e39c6089ebe404879ecf7305304b39e7cae2d27adfd352ebbda7b24669",
+    "data\\adaptation-seed-robustness.csv": "538ec4765edfed46ef3c536a5386e325d8f38e9d6b4d47697492623fef5ee8c1",
+    "events.csv": "7afd9b2513aa802815625ab9bd43b08b0aa6405024501b0f76a46e802ef5aa5a",
+    "metrics.csv": "0ecdc194b8ead6f8d1c9c01f139c10c1d1a6f69a35774ede6a163e56738a6fb4",
+    "run.log": "e094890e72d9d7cdbb7aab624c005a66bc08f4ee8f3bd23a32f58036509ef876"
+  },
+  "error": null
+}

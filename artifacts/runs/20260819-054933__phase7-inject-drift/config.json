@@ -1,0 +1,18 @@
+{
+  "task": "phase7-inject-drift",
+  "description": "Controlled sudden/gradual/recurring preference shifts + sanity",
+  "params": {
+    "n_users": 300,
+    "types": [
+      "sudden",
+      "gradual",
+      "recurring"
+    ]
+  },
+  "tags": [
+    "phase7",
+    "injection"
+  ],
+  "seed": 42,
+  "dataset": "amazon-subsample"
+}

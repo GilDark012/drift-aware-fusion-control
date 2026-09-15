@@ -1,0 +1,9 @@
+timestamp,level,stage,event,detail
+2026-08-17T22:01:31.976002+00:00,INFO,run,start,"Certify processed Amazon splits: counts, leakage, drift ground truth"
+2026-08-17T22:01:31.977445+00:00,INFO,data,load_start,train/val/test parquet
+2026-08-17T22:01:39.223746+00:00,INFO,data,leakage_check,clean=True
+2026-08-17T22:01:39.224743+00:00,WARNING,data,drift_artifacts_check,usable_for_training=False
+2026-08-17T22:01:39.664447+00:00,INFO,report,figure_saved,user-activity-distribution.png
+2026-08-17T22:01:40.733457+00:00,INFO,report,figure_saved,category-share-over-time.png
+2026-08-17T22:01:40.856653+00:00,INFO,report,figure_saved,rating-distribution.png
+2026-08-17T22:01:40.859665+00:00,INFO,run,end,completed

@@ -1,0 +1,11 @@
+timestamp,level,stage,event,detail
+2026-08-19T05:31:56.260997+00:00,INFO,run,start,Compare α-policies (static/continuous/state abrupt|gradual)
+2026-08-19T05:31:57.423908+00:00,INFO,adaptation,policy_start,static-0.5
+2026-08-19T05:32:01.152679+00:00,INFO,adaptation,policy_start,continuous
+2026-08-19T05:32:04.475964+00:00,INFO,adaptation,policy_start,state-abrupt
+2026-08-19T05:32:07.829149+00:00,INFO,adaptation,policy_start,state-gradual
+2026-08-19T05:32:12.024636+00:00,INFO,report,table_saved,policy-comparison.csv
+2026-08-19T05:32:12.025637+00:00,INFO,adaptation,illustrate,synthetic control-law ramp
+2026-08-19T05:32:12.284441+00:00,INFO,report,figure_saved,alpha-trajectory-gradual-synthetic.png
+2026-08-19T05:32:12.563373+00:00,INFO,report,figure_saved,alpha-policy-comparison-synthetic.png
+2026-08-19T05:32:12.564401+00:00,INFO,run,end,completed

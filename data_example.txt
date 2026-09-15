@@ -1,0 +1,55 @@
+# Amazon Dataset — Current Implementation Data Card
+
+## Scope
+- Dataset used in version 1: Amazon only
+- Selected categories: [write your three category names]
+- Feedback type: [review / rating / implicit interaction] ?
+- Main task: next-item recommendation
+
+## Files Already Created
+- data/processed/amazon_clean.parquet
+  - Output of: loader.py
+  - Contains: cleaned interactions from the selected categories
+  - Required columns: user_idx, item_idx, timestamp, category, [rating/label if applicable]
+
+- data/processed/train.parquet
+  - Output of: splitter.py
+  - Earliest 70% of interactions
+
+- data/processed/val.parquet
+  - Output of: splitter.py
+  - Middle 10% of interactions
+
+- data/processed/test.parquet
+  - Output of: splitter.py
+  - Latest 20% of interactions
+
+## Temporal Rule
+Never train on validation or test interactions.
+Never shuffle interactions across time.
+
+## Data Schema
+
+user_id     item_id                    category  \
+0  AFEMQVTQRPMXFCLZYAKA7IYR3LSQ  B09ZQ3HMRW  Clothing_Shoes_and_Jewelry   
+1  AEDH4CUKZSK632KYOTV3ADPIUWEQ  B006GWO5WK                 Electronics   
+2  AH6QULL7RXW5WJLRS3NAGIFQWJNQ  0310727219                       Books   
+3  AFAXUQQO64ADLXL4OUM2KT44KIWQ  0764128949                       Books   
+4  AGJYVRYX4VRETQOWU7CCFBFZMEYA  159523103X                       Books   
+5  AF3UY5OX3NFBANLTXST6GKWTB5NQ  B09T3GJ5Y5  Clothing_Shoes_and_Jewelry   
+6  AGCNNCSJKWOB6U6SPR5XFASHWPQQ  B006LEYQK4                 Electronics   
+7  AE7HVCWDPOWTZI74RZAEU734MO7Q  0316015474                       Books   
+8  AGQTZK33YE65I4P3XMZKRBFH5AIQ  B07W4CBQ86                 Electronics   
+9  AFAWJZREEHB2PPR7HLMOOPAS665Q  B005X5DMO8  Clothing_Shoes_and_Jewelry   
+
+   preference_score           timestamp  user_idx  item_idx  
+0               4.0 2014-01-01 00:00:31         0         0  
+1               5.0 2014-01-01 00:00:38         1         1  
+2               4.0 2014-01-01 00:02:07         2         2  
+3               5.0 2014-01-01 00:03:07         3         3  
+4               5.0 2014-01-01 00:03:14         4         4  
+5               5.0 2014-01-01 00:04:01         5         5  
+6               4.0 2014-01-01 00:04:31         6         6  
+7               5.0 2014-01-01 00:04:42         7         7  
+8               5.0 2014-01-01 00:04:44         8         8  
+9               5.0 2014-01-01 00:06:41         9         9

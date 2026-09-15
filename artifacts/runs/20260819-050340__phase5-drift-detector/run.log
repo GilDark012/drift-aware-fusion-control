@@ -1,0 +1,18 @@
+2026-08-19 07:03:41 | INFO     | lab.20260819-050340__phase5-drift-detector | [run] start Persistence-aware detector: tune alarm rate on validation (H5/H6)
+2026-08-19 07:03:41 | INFO     | lab.20260819-050340__phase5-drift-detector | [drift] tuning_start 1500 val users
+2026-08-19 07:03:44 | INFO     | lab.20260819-050340__phase5-drift-detector | metric users_tuned[val]=849 step=0
+2026-08-19 07:03:46 | INFO     | lab.20260819-050340__phase5-drift-detector | metric confirmed_per_1k[val]=2.4315888800174204 step=1
+2026-08-19 07:03:46 | INFO     | lab.20260819-050340__phase5-drift-detector | metric confirmed_per_1k[val]=0.7258474268708717 step=3
+2026-08-19 07:03:46 | INFO     | lab.20260819-050340__phase5-drift-detector | metric confirmed_per_1k[val]=0.07258474268708717 step=5
+2026-08-19 07:03:46 | INFO     | lab.20260819-050340__phase5-drift-detector | metric confirmed_per_1k[val]=0.0 step=8
+2026-08-19 07:03:46 | INFO     | lab.20260819-050340__phase5-drift-detector | metric confirmed_per_1k[val]=0.0 step=12
+2026-08-19 07:03:46 | INFO     | lab.20260819-050340__phase5-drift-detector | [report] figure_saved persistence-sweep.png
+2026-08-19 07:03:47 | INFO     | lab.20260819-050340__phase5-drift-detector | [report] table_saved h6-strategy-by-stratum.csv
+2026-08-19 07:03:47 | INFO     | lab.20260819-050340__phase5-drift-detector | [report] figure_saved strategy-by-stratum.png
+2026-08-19 07:03:47 | INFO     | lab.20260819-050340__phase5-drift-detector | metric chosen_confirmed_per_1k[val]=0.07258474268708717 step=0
+2026-08-19 07:03:47 | INFO     | lab.20260819-050340__phase5-drift-detector | metric chosen_temporary_per_1k[val]=6.205995499745954 step=0
+2026-08-19 07:03:47 | INFO     | lab.20260819-050340__phase5-drift-detector | metric chosen_users_with_confirm[val]=0.002355712603062426 step=0
+2026-08-19 07:03:53 | INFO     | lab.20260819-050340__phase5-drift-detector | [report] figure_saved detection-user-21128.png
+2026-08-19 07:03:53 | INFO     | lab.20260819-050340__phase5-drift-detector | [report] figure_saved detection-user-6721.png
+2026-08-19 07:03:53 | INFO     | lab.20260819-050340__phase5-drift-detector | [report] figure_saved detection-user-8337.png
+2026-08-19 07:03:53 | INFO     | lab.20260819-050340__phase5-drift-detector | [run] end completed

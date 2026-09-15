@@ -1,0 +1,30 @@
+{
+  "run_id": "20260826-140352__dense-adaptation-cusum",
+  "task": "dense-adaptation-cusum",
+  "description": "CUSUM-driven adaptive fusion vs static-0.8 and window-B (dense)",
+  "status": "completed",
+  "started_at": "2026-08-26T14:03:52.419294Z",
+  "finished_at": "2026-08-26T14:03:58.202238Z",
+  "duration_seconds": 5.782944,
+  "git_commit": "18bb5cd9262f9e8ab6f9bdff72339f6d141b9f04",
+  "python_version": "3.11.4",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "seed": 42,
+  "dataset": "amazon-subsample-dense",
+  "tags": [
+    "adaptation",
+    "cusum",
+    "dense"
+  ],
+  "metric_count": 4,
+  "event_count": 4,
+  "artifacts": {
+    "config.json": "659a9b3adc1ba1c6a900665eec9ef92594beb162956c85a36443b2f366c2ed5f",
+    "data\\dense-adaptation.csv": "25f3c5d32c90019c0ac74c8165ca347e4d16ebc604f222fbd349469273230f3e",
+    "events.csv": "67019024a99465776a7965f821e7afe828c64cb78405c36d3b3dec35d98c6891",
+    "figures\\dense-recovery-curves.png": "7f7bc71aee0a29c86337ca7d14325a3c58cb8b188ee986d6b4071b2197801257",
+    "metrics.csv": "d399af5188a4ef400707b25d764c7b6bcb94703224c9c8eb2a36aa5885cf3362",
+    "run.log": "9ab34ebd5185d7276f7fc5dd137ffbd0696abb1f2e1242fbf14980b4c53a54d5"
+  },
+  "error": null
+}

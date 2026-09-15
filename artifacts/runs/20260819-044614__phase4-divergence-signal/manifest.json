@@ -1,0 +1,36 @@
+{
+  "run_id": "20260819-044614__phase4-divergence-signal",
+  "task": "phase4-divergence-signal",
+  "description": "Long/short divergence D(L,S) via cosine over the backbone",
+  "status": "completed",
+  "started_at": "2026-08-19T04:46:14.782906Z",
+  "finished_at": "2026-08-19T04:46:21.147911Z",
+  "duration_seconds": 6.365005,
+  "git_commit": "6e9e01efcc76c67c06eabf668425717f6339d149",
+  "python_version": "3.11.4",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "seed": 42,
+  "dataset": "amazon-subsample",
+  "tags": [
+    "phase4",
+    "divergence"
+  ],
+  "metric_count": 8,
+  "event_count": 11,
+  "artifacts": {
+    "config.json": "1510eeec65d0610d8db1886abd96e65e489ca014b9e1fe1c214b248662263ad9",
+    "data\\divergence_population.parquet": "ee8abbb207b9b83e79c9e31113eae111e01e36cb19951990a0fa2b19e54fa877",
+    "events.csv": "2432b8690be31348277cd523e20ae4e10e7fef7b24611a5cb808ad9bcaad23b2",
+    "figures\\divergence-distribution.png": "daf3ddbe758b9e6dc44608c2e09f5cca822a685d63c87428e78f005401dd826b",
+    "figures\\population-category-effect.png": "5729ce590c3763d5d85538e51ba2f2744700350f33883791239942cb897920a5",
+    "figures\\trajectory-user-1091.png": "c18d47e3a730a19c8c4d7fa712b6da0d75e7bb3e659e7ab4a073a71a79e43fd5",
+    "figures\\trajectory-user-11227.png": "c1f0f395e707d848e5f469c30e8043fbeb28a4a459ce521b7a8d2ebf8bd196ab",
+    "figures\\trajectory-user-13383.png": "2056608c5ced8e00816dfe11450e5d26297d4bdf2b8934b92e1b0ed2f4f87ed6",
+    "figures\\trajectory-user-17959.png": "938c0a887eb5676ca42d3b8deee8ae5c45dc8afc592f632f4770019e39323d38",
+    "figures\\trajectory-user-2140.png": "ba16e68c688098f180c8a96aa10e99f1cdaef9b803643bda9c35680987972f03",
+    "figures\\trajectory-user-8378.png": "f1fb492b944727be51e90edd506e97e37dbf9438aa3ecb8e0633d30f096417f8",
+    "metrics.csv": "e349a396e76905d6c449629c18f54d8ae96a65abc348c649afea507ac5dd888e",
+    "run.log": "2287d7df17f55cf27b89f51fcb9f4693ce9e86dd8d7840b0c8955316ca73e2c0"
+  },
+  "error": null
+}

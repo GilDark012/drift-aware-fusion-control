@@ -1,0 +1,30 @@
+{
+  "run_id": "20260827-205021__second-dataset",
+  "task": "second-dataset",
+  "description": "Coherent-drift adaptation replicated on Electronics alone",
+  "status": "completed",
+  "started_at": "2026-08-27T20:50:21.004508Z",
+  "finished_at": "2026-08-27T20:57:14.353764Z",
+  "duration_seconds": 413.349256,
+  "git_commit": "2644698ded246e217bd62300ce9edebb234b7686",
+  "python_version": "3.11.4",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "seed": 42,
+  "dataset": "amazon-electronics",
+  "tags": [
+    "generalisation",
+    "second-dataset",
+    "coherent"
+  ],
+  "metric_count": 0,
+  "event_count": 4,
+  "artifacts": {
+    "config.json": "9afa4af3d7e5e4e55de8b02297882f74044a9a31e17fc7d97a567cfde56bb6fe",
+    "data\\second-dataset-diffs.csv": "071457c1b500a43b8401c4eeda597c6485820be7eb7947ce019aef6d84932d5e",
+    "data\\second-dataset-means.csv": "541d73c491037a1d0dd1055f4c7ddf6dae8a2066daad47526d0ad9c6bec91da3",
+    "events.csv": "c7240ab6261270bbc11d65177a1d87a826233100b4055b466db0ca1bc6c86793",
+    "metrics.csv": "2b4595ccdf99e29ac6acc543c3e8dbc0226d69e6f7665b0d9d2a6241358c9f3a",
+    "run.log": "3337d17eed426c90a370e7bc472e01f70237ee55aacd7574e5bba4102051138c"
+  },
+  "error": null
+}

@@ -1,0 +1,14 @@
+{
+  "task": "phase2-data-validation",
+  "description": "Certify processed Amazon splits: counts, leakage, drift ground truth",
+  "params": {
+    "processed_dir": "data/processed",
+    "drift_dir": "data/drift"
+  },
+  "tags": [
+    "phase2",
+    "data-quality"
+  ],
+  "seed": 42,
+  "dataset": "amazon-processed"
+}

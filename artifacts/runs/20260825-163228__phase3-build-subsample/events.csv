@@ -1,0 +1,4 @@
+timestamp,level,stage,event,detail
+2026-08-25T16:32:28.797570+00:00,INFO,run,start,Stratified evaluable-cohort subsample for fast iteration
+2026-08-25T16:32:28.798998+00:00,INFO,data,subsample_start,data\interim\subsample
+2026-08-25T16:32:32.056947+00:00,INFO,run,end,completed

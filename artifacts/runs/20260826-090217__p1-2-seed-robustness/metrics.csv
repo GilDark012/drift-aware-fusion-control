@@ -1,0 +1,5 @@
+timestamp,step,split,metric,value,unit,context
+2026-08-26T09:03:00.950120+00:00,175,all,detection_rate_mean,0.644,,z=1.75
+2026-08-26T09:03:00.950120+00:00,175,all,detection_rate_ci95,0.0139,,z=1.75
+2026-08-26T09:03:00.951413+00:00,200,all,detection_rate_mean,0.2789,,z=2.0
+2026-08-26T09:03:00.951413+00:00,200,all,detection_rate_ci95,0.0177,,z=2.0

@@ -1,0 +1,4 @@
+2026-08-25 18:28:31 | INFO     | lab.20260825-162831__phase4-divergence-signal | [run] start Drift signal D_u(t) via short_term_drift over the backbone
+2026-08-25 18:28:31 | INFO     | lab.20260825-162831__phase4-divergence-signal | [drift] trajectories_start signal=short_term_drift
+2026-08-25 18:28:32 | ERROR    | lab.20260825-162831__phase4-divergence-signal | run failed: torch.cat(): expected a non-empty list of Tensors
+2026-08-25 18:28:32 | ERROR    | lab.20260825-162831__phase4-divergence-signal | [run] failed torch.cat(): expected a non-empty list of Tensors

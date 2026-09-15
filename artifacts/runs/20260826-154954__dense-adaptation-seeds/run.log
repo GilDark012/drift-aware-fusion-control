@@ -1,0 +1,10 @@
+2026-08-26 17:49:54 | INFO     | lab.20260826-154954__dense-adaptation-seeds | [run] start Seed-robustness of CUSUM adaptive fusion, per scenario (coherent)
+2026-08-26 17:59:25 | INFO     | lab.20260826-154954__dense-adaptation-seeds | [report] table_saved adaptation-seed-robustness.csv
+2026-08-26 17:59:25 | INFO     | lab.20260826-154954__dense-adaptation-seeds | [report] table_saved adaptation-paired-diffs.csv
+2026-08-26 17:59:25 | INFO     | lab.20260826-154954__dense-adaptation-seeds | metric proposed_minus_window_robust[all]=1.0 step=0
+2026-08-26 17:59:25 | INFO     | lab.20260826-154954__dense-adaptation-seeds | metric proposed_minus_static_robust[all]=0.0 step=0
+2026-08-26 17:59:25 | INFO     | lab.20260826-154954__dense-adaptation-seeds | metric proposed_minus_window_robust[all]=1.0 step=0
+2026-08-26 17:59:25 | INFO     | lab.20260826-154954__dense-adaptation-seeds | metric proposed_minus_static_robust[all]=0.0 step=0
+2026-08-26 17:59:25 | INFO     | lab.20260826-154954__dense-adaptation-seeds | metric proposed_minus_window_robust[all]=1.0 step=0
+2026-08-26 17:59:25 | INFO     | lab.20260826-154954__dense-adaptation-seeds | metric proposed_minus_static_robust[all]=0.0 step=0
+2026-08-26 17:59:25 | INFO     | lab.20260826-154954__dense-adaptation-seeds | [run] end completed

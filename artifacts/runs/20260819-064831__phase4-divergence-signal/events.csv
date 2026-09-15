@@ -1,0 +1,12 @@
+timestamp,level,stage,event,detail
+2026-08-19T06:48:31.976143+00:00,INFO,run,start,Drift signal D_u(t) via short_term_drift over the backbone
+2026-08-19T06:48:31.978214+00:00,INFO,drift,trajectories_start,signal=short_term_drift
+2026-08-19T06:48:37.486281+00:00,INFO,report,figure_saved,population-category-effect.png
+2026-08-19T06:48:37.646940+00:00,INFO,report,figure_saved,divergence-distribution.png
+2026-08-19T06:48:37.894116+00:00,INFO,report,figure_saved,trajectory-user-948.png
+2026-08-19T06:48:38.099079+00:00,INFO,report,figure_saved,trajectory-user-268.png
+2026-08-19T06:48:38.333468+00:00,INFO,report,figure_saved,trajectory-user-8678.png
+2026-08-19T06:48:38.561326+00:00,INFO,report,figure_saved,trajectory-user-9962.png
+2026-08-19T06:48:38.769505+00:00,INFO,report,figure_saved,trajectory-user-3553.png
+2026-08-19T06:48:39.128259+00:00,INFO,report,figure_saved,trajectory-user-615.png
+2026-08-19T06:48:39.151515+00:00,INFO,run,end,completed

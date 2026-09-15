@@ -1,0 +1,20 @@
+{
+  "task": "dense-adaptation-seeds",
+  "description": "Seed-robustness of CUSUM adaptive fusion, per scenario (coherent)",
+  "params": {
+    "seeds": 3,
+    "mechanism": "coherent",
+    "scenarios": [
+      "sudden",
+      "gradual",
+      "recurring"
+    ]
+  },
+  "tags": [
+    "adaptation",
+    "seeds",
+    "coherent"
+  ],
+  "seed": 42,
+  "dataset": "amazon-subsample-dense"
+}

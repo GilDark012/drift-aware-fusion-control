@@ -1,0 +1,15 @@
+{
+  "strategy": "adaptive",
+  "enter": 2.0,
+  "exit": 0.8,
+  "persistence": 3,
+  "gap_tolerance": 1,
+  "recovery_persistence": 3,
+  "warmup": 3,
+  "cooldown": 0,
+  "rolling": {
+    "window": 10,
+    "ewma_halflife": 5.0,
+    "min_periods": 3
+  }
+}

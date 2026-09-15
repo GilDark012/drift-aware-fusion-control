@@ -1,0 +1,15 @@
+{
+  "task": "second-dataset",
+  "description": "Coherent-drift adaptation replicated on Books alone",
+  "params": {
+    "category": "Books",
+    "seeds": 2
+  },
+  "tags": [
+    "generalisation",
+    "second-dataset",
+    "coherent"
+  ],
+  "seed": 42,
+  "dataset": "amazon-books"
+}

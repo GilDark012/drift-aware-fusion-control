@@ -1,0 +1,15 @@
+{
+  "task": "second-dataset",
+  "description": "Coherent-drift adaptation replicated on Electronics alone",
+  "params": {
+    "category": "Electronics",
+    "seeds": 20
+  },
+  "tags": [
+    "generalisation",
+    "second-dataset",
+    "coherent"
+  ],
+  "seed": 42,
+  "dataset": "amazon-electronics"
+}

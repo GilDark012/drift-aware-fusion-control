@@ -1,0 +1,19 @@
+2026-08-19 08:48:31 | INFO     | lab.20260819-064831__phase4-divergence-signal | [run] start Drift signal D_u(t) via short_term_drift over the backbone
+2026-08-19 08:48:31 | INFO     | lab.20260819-064831__phase4-divergence-signal | [drift] trajectories_start signal=short_term_drift
+2026-08-19 08:48:37 | INFO     | lab.20260819-064831__phase4-divergence-signal | metric users_analyzed[test]=600 step=0
+2026-08-19 08:48:37 | INFO     | lab.20260819-064831__phase4-divergence-signal | metric divergence_mean[test]=0.5718359036195443 step=0
+2026-08-19 08:48:37 | INFO     | lab.20260819-064831__phase4-divergence-signal | metric divergence_std[test]=0.2614859682841883 step=0
+2026-08-19 08:48:37 | INFO     | lab.20260819-064831__phase4-divergence-signal | metric divergence_mean_category_changed[test]=0.614020846794843 step=0
+2026-08-19 08:48:37 | INFO     | lab.20260819-064831__phase4-divergence-signal | metric divergence_mean_category_stable[test]=0.5568773660898458 step=0
+2026-08-19 08:48:37 | INFO     | lab.20260819-064831__phase4-divergence-signal | metric positions_total[test]=20197 step=0
+2026-08-19 08:48:37 | INFO     | lab.20260819-064831__phase4-divergence-signal | metric category_change_rate[test]=0.2617715502302322 step=0
+2026-08-19 08:48:37 | INFO     | lab.20260819-064831__phase4-divergence-signal | [report] figure_saved population-category-effect.png
+2026-08-19 08:48:37 | INFO     | lab.20260819-064831__phase4-divergence-signal | [report] figure_saved divergence-distribution.png
+2026-08-19 08:48:37 | INFO     | lab.20260819-064831__phase4-divergence-signal | [report] figure_saved trajectory-user-948.png
+2026-08-19 08:48:38 | INFO     | lab.20260819-064831__phase4-divergence-signal | [report] figure_saved trajectory-user-268.png
+2026-08-19 08:48:38 | INFO     | lab.20260819-064831__phase4-divergence-signal | [report] figure_saved trajectory-user-8678.png
+2026-08-19 08:48:38 | INFO     | lab.20260819-064831__phase4-divergence-signal | [report] figure_saved trajectory-user-9962.png
+2026-08-19 08:48:38 | INFO     | lab.20260819-064831__phase4-divergence-signal | [report] figure_saved trajectory-user-3553.png
+2026-08-19 08:48:39 | INFO     | lab.20260819-064831__phase4-divergence-signal | [report] figure_saved trajectory-user-615.png
+2026-08-19 08:48:39 | INFO     | lab.20260819-064831__phase4-divergence-signal | metric category_change_divergence_lift[test]=1.1026141197050874 step=0
+2026-08-19 08:48:39 | INFO     | lab.20260819-064831__phase4-divergence-signal | [run] end completed

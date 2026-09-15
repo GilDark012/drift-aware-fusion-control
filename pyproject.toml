@@ -1,0 +1,82 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "drift_reco"
+version = "0.1.0"
+description = "Drift-awareness methodology for long/short-term fusion recommenders"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Gil-Allen Mounzeo" }]
+license = { file = "LICENSE" }
+dependencies = [
+    "pydantic>=2.6",
+    "pydantic-settings>=2.2",
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "pyarrow>=15.0",
+    "scipy>=1.12",
+    "scikit-learn>=1.4",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=4.1",
+    "ruff>=0.4",
+    "mypy>=1.9",
+    "pre-commit>=3.7",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+src = ["src", "tests"]
+# legacy/ = frozen provenance scripts; the build_*_report scripts are report-generation
+# tooling (not the research package). Neither is maintained/linted as source code.
+extend-exclude = ["legacy", "build_first_draft_report.py",
+                  "build_latex_style_pfe_pdf.py",
+                  "build_aivancity_template_thesis.py", "thesis_content.py"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "D", "UP", "B", "A", "C4", "SIM", "ARG", "PTH", "RET", "C90"]
+ignore = ["D203", "D213"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.mccabe]
+max-complexity = 10
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["D103", "ARG", "E501"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+warn_unused_ignores = true
+disallow_untyped_defs = true
+plugins = ["pydantic.mypy"]
+exclude = ["legacy/", "build/"]
+
+[[tool.mypy.overrides]]
+module = ["pandas.*", "scipy.*", "sklearn.*", "matplotlib.*", "pyarrow.*"]
+ignore_missing_imports = true
+
+# torch/numpy stubs surface pervasive Any (tensor ops, ndarray generics, untyped
+# .backward()). Relax only those flags for the tensor-heavy packages; every other
+# package stays fully strict. This is a scoped, documented relaxation, not blanket.
+[[tool.mypy.overrides]]
+module = ["drift_reco.models.*", "drift_reco.detectors.*", "drift_reco.adaptation.gate"]
+disallow_any_generics = false
+disallow_untyped_calls = false
+warn_return_any = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --cov=drift_reco --cov-report=term-missing"

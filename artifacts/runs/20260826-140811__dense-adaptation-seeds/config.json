@@ -1,0 +1,15 @@
+{
+  "task": "dense-adaptation-seeds",
+  "description": "Seed-robustness of CUSUM adaptive fusion (coherent drift)",
+  "params": {
+    "seeds": 30,
+    "mechanism": "coherent"
+  },
+  "tags": [
+    "adaptation",
+    "seeds",
+    "coherent"
+  ],
+  "seed": 42,
+  "dataset": "amazon-subsample-dense"
+}

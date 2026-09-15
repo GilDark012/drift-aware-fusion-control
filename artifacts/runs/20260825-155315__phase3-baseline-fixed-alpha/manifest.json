@@ -1,0 +1,29 @@
+{
+  "run_id": "20260825-155315__phase3-baseline-fixed-alpha",
+  "task": "phase3-baseline-fixed-alpha",
+  "description": "Fixed-α=0.5 long/short fusion baseline (subsample)",
+  "status": "completed",
+  "started_at": "2026-08-25T15:53:15.550804Z",
+  "finished_at": "2026-08-25T15:54:57.731895Z",
+  "duration_seconds": 102.181091,
+  "git_commit": "96e44d1239be63bc788d97a182da8693c788e8ed",
+  "python_version": "3.11.4",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "seed": 42,
+  "dataset": "amazon-subsample",
+  "tags": [
+    "phase3",
+    "baseline",
+    "fixed-alpha"
+  ],
+  "metric_count": 18,
+  "event_count": 6,
+  "artifacts": {
+    "config.json": "b3b97256bee29c42171b77e8fca9ff1ab7d6ecfc71903d8069ecd73dd6e3bf8e",
+    "events.csv": "d6563bb2425ba91cd236bdd719119bcd00031361ec1b4886cbb88fe26d46b39f",
+    "metrics.csv": "9c46db65ce7a7197bf934795a2d66193dfcab44824a82ac65a8ecba763dbe575",
+    "model.pt": "fd657e9b0e1d4a375d3d55687e036275e60537eb4570bb18cd1a98731b18d374",
+    "run.log": "481a1f4b420c37b07ba910739fe1caf07fce1184dfbf9f7138c31f33fceb7acc"
+  },
+  "error": null
+}

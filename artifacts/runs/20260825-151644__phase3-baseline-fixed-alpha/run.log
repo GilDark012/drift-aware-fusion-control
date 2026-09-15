@@ -1,0 +1,24 @@
+2026-08-25 17:16:44 | INFO     | lab.20260825-151644__phase3-baseline-fixed-alpha | [run] start Fixed-α=0.5 long/short fusion baseline (subsample)
+2026-08-25 17:16:44 | INFO     | lab.20260825-151644__phase3-baseline-fixed-alpha | [data] subsample_loaded {'train': 478789, 'val': 11693, 'test': 81724}
+2026-08-25 17:16:45 | INFO     | lab.20260825-151644__phase3-baseline-fixed-alpha | [model] train_start 220736 items
+2026-08-25 17:23:51 | INFO     | lab.20260825-151644__phase3-baseline-fixed-alpha | metric train_loss[train]=0.913915396157433 step=0
+2026-08-25 17:23:51 | INFO     | lab.20260825-151644__phase3-baseline-fixed-alpha | metric train_examples[train]=434898 step=0
+2026-08-25 17:23:51 | INFO     | lab.20260825-151644__phase3-baseline-fixed-alpha | [model] train_done device=cuda
+2026-08-25 17:23:52 | INFO     | lab.20260825-151644__phase3-baseline-fixed-alpha | metric ndcg_at_k[val]=0.00047626785475903986 step=0
+2026-08-25 17:23:52 | INFO     | lab.20260825-151644__phase3-baseline-fixed-alpha | metric recall_at_k[val]=0.0009823182711198428 step=0
+2026-08-25 17:23:52 | INFO     | lab.20260825-151644__phase3-baseline-fixed-alpha | metric hit_rate_at_k[val]=0.0009823182711198428 step=0
+2026-08-25 17:23:52 | INFO     | lab.20260825-151644__phase3-baseline-fixed-alpha | metric mrr[val]=0.0006003478158187071 step=0
+2026-08-25 17:23:52 | INFO     | lab.20260825-151644__phase3-baseline-fixed-alpha | metric ndcg_at_k_seen[val]=0.0009162081150303605 step=0
+2026-08-25 17:23:52 | INFO     | lab.20260825-151644__phase3-baseline-fixed-alpha | metric hit_rate_at_k_seen[val]=0.0018897096718776842 step=0
+2026-08-25 17:23:52 | INFO     | lab.20260825-151644__phase3-baseline-fixed-alpha | metric n_scored[val]=11198 step=0
+2026-08-25 17:23:52 | INFO     | lab.20260825-151644__phase3-baseline-fixed-alpha | metric n_seen_target[val]=5821 step=0
+2026-08-25 17:23:56 | INFO     | lab.20260825-151644__phase3-baseline-fixed-alpha | metric ndcg_at_k[test]=0.0004175273712934204 step=0
+2026-08-25 17:23:56 | INFO     | lab.20260825-151644__phase3-baseline-fixed-alpha | metric recall_at_k[test]=0.0008718395815170009 step=0
+2026-08-25 17:23:56 | INFO     | lab.20260825-151644__phase3-baseline-fixed-alpha | metric hit_rate_at_k[test]=0.0008718395815170009 step=0
+2026-08-25 17:23:56 | INFO     | lab.20260825-151644__phase3-baseline-fixed-alpha | metric mrr[test]=0.0004916118717064835 step=0
+2026-08-25 17:23:56 | INFO     | lab.20260825-151644__phase3-baseline-fixed-alpha | metric ndcg_at_k_seen[test]=0.0009004370841028397 step=0
+2026-08-25 17:23:56 | INFO     | lab.20260825-151644__phase3-baseline-fixed-alpha | metric hit_rate_at_k_seen[test]=0.0018802041364491002 step=0
+2026-08-25 17:23:56 | INFO     | lab.20260825-151644__phase3-baseline-fixed-alpha | metric n_scored[test]=80290 step=0
+2026-08-25 17:23:56 | INFO     | lab.20260825-151644__phase3-baseline-fixed-alpha | metric n_seen_target[test]=37230 step=0
+2026-08-25 17:23:57 | INFO     | lab.20260825-151644__phase3-baseline-fixed-alpha | [model] checkpoint_saved artifacts/models/baseline-subsample
+2026-08-25 17:23:57 | INFO     | lab.20260825-151644__phase3-baseline-fixed-alpha | [run] end completed

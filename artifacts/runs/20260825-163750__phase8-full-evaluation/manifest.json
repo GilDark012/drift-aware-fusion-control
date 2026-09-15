@@ -1,0 +1,35 @@
+{
+  "run_id": "20260825-163750__phase8-full-evaluation",
+  "task": "phase8-full-evaluation",
+  "description": "Control vs injected; baselines A/B/D vs proposed; recovery curves",
+  "status": "completed",
+  "started_at": "2026-08-25T16:37:50.384934Z",
+  "finished_at": "2026-08-25T16:38:01.444285Z",
+  "duration_seconds": 11.059351,
+  "git_commit": "7e600cc39b00d3921248d4443656d9381154576b",
+  "python_version": "3.11.4",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "seed": 42,
+  "dataset": "amazon-subsample",
+  "tags": [
+    "phase8",
+    "evaluation"
+  ],
+  "metric_count": 40,
+  "event_count": 13,
+  "artifacts": {
+    "config.json": "6ab5ea6a4249a4ee6275e49e3e568eb33364c4333e29374644dfc2e409871dd5",
+    "data\\policy-scenario-summary.csv": "10ff0e2dfb1cf04cc08f63522ae262346847757a468e2643006932fb3904e942",
+    "events.csv": "05859ac9b75d282f3a8caff7445ce40cfdeb70685a2f0b6027cb91fddbb6692b",
+    "figures\\detection-tradeoff-sudden.png": "04c4668bda7cf0da5434382bb7349307fd94ffe1b7c8ba9b768b26cbc34a57d9",
+    "figures\\recovery-detected-gradual.png": "9586f5102fa7866c276dfb0915dda0c0c548e146e68345bd1e4edf2fee290c64",
+    "figures\\recovery-detected-recurring.png": "ea7fb1fc97882ecf43449901fbb3738b63995ef94f185e8c53f6f61cb9a21b1b",
+    "figures\\recovery-detected-sudden.png": "c20d8907938a128063d029de1a5b8350f7e85b59249b2be9abdf038c88464964",
+    "figures\\recovery-full-gradual.png": "bf28642b0d637e5a8135d50abaeb085b849975c2a874377e33c70714313d2d3c",
+    "figures\\recovery-full-recurring.png": "e07766c10f28a73f4365fc6e04027c8d4a93e949d5beba0a6ba2ae14b95a7e5e",
+    "figures\\recovery-full-sudden.png": "e3808dd846a973ab0f6ec6c2aae3018687529ef19489a5b2337e6f9acce50833",
+    "metrics.csv": "af2960431eac9dd837e3506adf77a384e1a869e7f3dff7adcba0e6700655e0c6",
+    "run.log": "a660daa089893e1268255b4d6ac39a82a1568f0694ab590b2f414c5685e5439a"
+  },
+  "error": null
+}

@@ -1,0 +1,10 @@
+timestamp,level,stage,event,detail
+2026-08-19T05:09:06.399120+00:00,INFO,run,start,Persistence-aware detector: tune alarm rate on validation (H5/H6)
+2026-08-19T05:09:06.401121+00:00,INFO,drift,tuning_start,1500 val users
+2026-08-19T05:09:12.023150+00:00,INFO,report,figure_saved,persistence-sweep.png
+2026-08-19T05:09:12.595058+00:00,INFO,report,table_saved,h6-strategy-by-stratum.csv
+2026-08-19T05:09:12.689045+00:00,INFO,report,figure_saved,strategy-by-stratum.png
+2026-08-19T05:09:19.211042+00:00,INFO,report,figure_saved,detection-user-21128.png
+2026-08-19T05:09:19.465729+00:00,INFO,report,figure_saved,detection-user-6721.png
+2026-08-19T05:09:19.698634+00:00,INFO,report,figure_saved,detection-user-8337.png
+2026-08-19T05:09:19.702017+00:00,INFO,run,end,completed

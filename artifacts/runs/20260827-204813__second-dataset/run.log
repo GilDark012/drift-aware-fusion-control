@@ -1,0 +1,4 @@
+2026-08-27 22:48:13 | INFO     | lab.20260827-204813__second-dataset | [run] start Coherent-drift adaptation replicated on Books alone
+2026-08-27 22:48:17 | INFO     | lab.20260827-204813__second-dataset | [report] table_saved second-dataset-means.csv
+2026-08-27 22:48:17 | INFO     | lab.20260827-204813__second-dataset | [report] table_saved second-dataset-diffs.csv
+2026-08-27 22:48:17 | INFO     | lab.20260827-204813__second-dataset | [run] end completed

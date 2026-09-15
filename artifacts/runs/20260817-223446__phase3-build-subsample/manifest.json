@@ -1,0 +1,28 @@
+{
+  "run_id": "20260817-223446__phase3-build-subsample",
+  "task": "phase3-build-subsample",
+  "description": "Stratified evaluable-cohort subsample for fast iteration",
+  "status": "completed",
+  "started_at": "2026-08-17T22:34:46.454256Z",
+  "finished_at": "2026-08-17T22:34:50.777428Z",
+  "duration_seconds": 4.323172,
+  "git_commit": "f56e064f2f225097174346c4b1e36bd7f71d37a6",
+  "python_version": "3.11.4",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "seed": 42,
+  "dataset": "amazon-processed",
+  "tags": [
+    "phase3",
+    "subsample"
+  ],
+  "metric_count": 9,
+  "event_count": 3,
+  "artifacts": {
+    "config.json": "d80bb13364d129b98dcea5e10f1b3fe620fe74f62255531d51082dc0da7460e3",
+    "events.csv": "be6dedc97554295fbe3a4ef0c0e2f952554a5a21f5cb31eda470c579ff850974",
+    "metrics.csv": "0e8a5c3eafa5e8b8931aa191f2a2ae20b40e6f38a6a549a7c0c5431211225f3c",
+    "notes.txt": "875e3ab80ba084906ed1a95a823b0e1b4cc5000de7a2ea3575d799e8fa59dbc2",
+    "run.log": "e928027062c6fb0a0d61a6d6fd5ef4dc08b8295334004b5bf853deed7c229871"
+  },
+  "error": null
+}

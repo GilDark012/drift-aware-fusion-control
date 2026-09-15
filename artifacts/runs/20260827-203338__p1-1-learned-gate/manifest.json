@@ -1,0 +1,29 @@
+{
+  "run_id": "20260827-203338__p1-1-learned-gate",
+  "task": "p1-1-learned-gate",
+  "description": "Explicit detector vs learned fusion gate (coherent drift)",
+  "status": "completed",
+  "started_at": "2026-08-27T20:33:38.501274Z",
+  "finished_at": "2026-08-27T20:34:48.143913Z",
+  "duration_seconds": 69.642639,
+  "git_commit": "f7f9a3349696eb907db6e95b5ba1c576086ec882",
+  "python_version": "3.11.4",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "seed": 42,
+  "dataset": "amazon-subsample-dense",
+  "tags": [
+    "p1-1",
+    "learned-gate",
+    "coherent"
+  ],
+  "metric_count": 0,
+  "event_count": 3,
+  "artifacts": {
+    "config.json": "dc0701770496716206d58d90868032e7605c5a11b85c30e55f3d9fe9086dea01",
+    "data\\learned-gate-comparison.csv": "473b81ae99a2e0d5e10b8f100960da584bafcc7260b08afd2fed8c5204567bb6",
+    "events.csv": "c1b3f22a52aed4708c7733c90b9c55013c923a86bea59109f4df83d8ac68428c",
+    "metrics.csv": "2b4595ccdf99e29ac6acc543c3e8dbc0226d69e6f7665b0d9d2a6241358c9f3a",
+    "run.log": "48d02cfc61ef99e417dfbabcf17463315f19fa989247fc20ac42c5ae4136a175"
+  },
+  "error": null
+}

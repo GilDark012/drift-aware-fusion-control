@@ -1,0 +1,5 @@
+timestamp,level,stage,event,detail
+2026-08-27T20:50:21.010119+00:00,INFO,run,start,Coherent-drift adaptation replicated on Electronics alone
+2026-08-27T20:57:14.352245+00:00,INFO,report,table_saved,second-dataset-means.csv
+2026-08-27T20:57:14.353764+00:00,INFO,report,table_saved,second-dataset-diffs.csv
+2026-08-27T20:57:14.353764+00:00,INFO,run,end,completed

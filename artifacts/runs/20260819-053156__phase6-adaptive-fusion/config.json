@@ -1,0 +1,19 @@
+{
+  "task": "phase6-adaptive-fusion",
+  "description": "Compare α-policies (static/continuous/state abrupt|gradual)",
+  "params": {
+    "top_k": 10,
+    "policies": [
+      "static-0.5",
+      "continuous",
+      "state-abrupt",
+      "state-gradual"
+    ]
+  },
+  "tags": [
+    "phase6",
+    "adaptive-fusion"
+  ],
+  "seed": 42,
+  "dataset": "amazon-subsample"
+}

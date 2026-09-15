@@ -1,0 +1,21 @@
+{
+  "task": "p1-1-learned-gate",
+  "description": "Explicit detector vs learned fusion gate (coherent drift)",
+  "params": {
+    "seeds": 3,
+    "gate_epochs": 3,
+    "gate_hidden": 0,
+    "scenarios": [
+      "sudden",
+      "gradual",
+      "recurring"
+    ]
+  },
+  "tags": [
+    "p1-1",
+    "learned-gate",
+    "coherent"
+  ],
+  "seed": 42,
+  "dataset": "amazon-subsample-dense"
+}

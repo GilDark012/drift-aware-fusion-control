@@ -1,0 +1,7 @@
+timestamp,step,split,metric,value,unit,context
+2026-08-26T15:49:32.757246+00:00,0,all,proposed_minus_window_robust,1.0,,sudden
+2026-08-26T15:49:32.757246+00:00,0,all,proposed_minus_static_robust,0.0,,sudden
+2026-08-26T15:49:32.757246+00:00,0,all,proposed_minus_window_robust,1.0,,gradual
+2026-08-26T15:49:32.765788+00:00,0,all,proposed_minus_static_robust,1.0,,gradual
+2026-08-26T15:49:32.765788+00:00,0,all,proposed_minus_window_robust,1.0,,recurring
+2026-08-26T15:49:32.766931+00:00,0,all,proposed_minus_static_robust,0.0,,recurring

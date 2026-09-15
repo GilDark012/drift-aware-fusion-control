@@ -1,0 +1,9 @@
+timestamp,step,split,metric,value,unit,context
+2026-08-19T06:48:37.128037+00:00,0,test,users_analyzed,600.0,users,
+2026-08-19T06:48:37.334386+00:00,0,test,divergence_mean,0.5718359036195443,,
+2026-08-19T06:48:37.334386+00:00,0,test,divergence_std,0.2614859682841883,,
+2026-08-19T06:48:37.334386+00:00,0,test,divergence_mean_category_changed,0.614020846794843,,
+2026-08-19T06:48:37.335397+00:00,0,test,divergence_mean_category_stable,0.5568773660898458,,
+2026-08-19T06:48:37.335397+00:00,0,test,positions_total,20197.0,positions,
+2026-08-19T06:48:37.335397+00:00,0,test,category_change_rate,0.2617715502302322,,
+2026-08-19T06:48:39.151515+00:00,0,test,category_change_divergence_lift,1.1026141197050874,,

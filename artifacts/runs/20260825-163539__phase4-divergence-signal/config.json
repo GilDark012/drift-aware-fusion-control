@@ -1,0 +1,15 @@
+{
+  "task": "phase4-divergence-signal",
+  "description": "Drift signal D_u(t) via short_term_drift over the backbone",
+  "params": {
+    "signal": "short_term_drift",
+    "max_users": 600,
+    "checkpoint": "artifacts/models/baseline-subsample"
+  },
+  "tags": [
+    "phase4",
+    "divergence"
+  ],
+  "seed": 42,
+  "dataset": "amazon-subsample"
+}

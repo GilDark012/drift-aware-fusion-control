@@ -1,0 +1,5 @@
+timestamp,step,split,metric,value,unit,context
+2026-08-26T12:38:29.757832+00:00,0,all,cusum_enter,0.5,,calibrated
+2026-08-26T12:38:32.360894+00:00,0,all,recovery_latency,7.0,,static-0.8
+2026-08-26T12:38:34.993125+00:00,0,all,recovery_latency,7.0,,window-B
+2026-08-26T12:38:37.833615+00:00,0,all,recovery_latency,7.0,,proposed-CUSUM

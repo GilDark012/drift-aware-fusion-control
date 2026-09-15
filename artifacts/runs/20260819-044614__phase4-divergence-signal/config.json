@@ -1,0 +1,15 @@
+{
+  "task": "phase4-divergence-signal",
+  "description": "Long/short divergence D(L,S) via cosine over the backbone",
+  "params": {
+    "metric": "cosine",
+    "max_users": 800,
+    "checkpoint": "artifacts/models/baseline-subsample"
+  },
+  "tags": [
+    "phase4",
+    "divergence"
+  ],
+  "seed": 42,
+  "dataset": "amazon-subsample"
+}

@@ -1,0 +1,29 @@
+{
+  "run_id": "20260826-090217__p1-2-seed-robustness",
+  "task": "p1-2-seed-robustness",
+  "description": "Detection/false-alarm CIs over injection seeds (sudden)",
+  "status": "completed",
+  "started_at": "2026-08-26T09:02:17.726949Z",
+  "finished_at": "2026-08-26T09:03:00.951921Z",
+  "duration_seconds": 43.224972,
+  "git_commit": "5c0e5199df8bde5eadd3be8e477faac6bd4b39ee",
+  "python_version": "3.11.4",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "seed": 42,
+  "dataset": "amazon-subsample",
+  "tags": [
+    "p1-2",
+    "seeds",
+    "confidence-interval"
+  ],
+  "metric_count": 4,
+  "event_count": 3,
+  "artifacts": {
+    "config.json": "661f234ce97a516e9e86915cb4d0f62e9a03d05e27c24658c5d6775ec853eb45",
+    "data\\seed-robustness.csv": "77011dec60c40d754d975a09f2b71bf1473b1a05fc46d32e6a44d4acb972559d",
+    "events.csv": "745b021293dd7ac7011844361597a65040a9ec69364536fb37bd736b665202ed",
+    "metrics.csv": "d2471d03636fa956b130573f6e78d029aa6e84438fd8c32b645112a869b7add8",
+    "run.log": "de087e86a5bd3e0f218847599a61d92e80c27750b2b4b966b2b39c8fe1c7571f"
+  },
+  "error": null
+}

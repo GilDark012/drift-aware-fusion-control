@@ -1,0 +1,29 @@
+{
+  "run_id": "20260826-121846__dense-alpha-probe",
+  "task": "dense-alpha-probe",
+  "description": "Does α>0 beat α=0 on a dense long-history cohort?",
+  "status": "failed",
+  "started_at": "2026-08-26T12:18:46.295272Z",
+  "finished_at": "2026-08-26T12:19:52.972802Z",
+  "duration_seconds": 66.67753,
+  "git_commit": "41905e512b6bdcc7bb86fed876139f1ddaae11c3",
+  "python_version": "3.11.4",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "seed": 42,
+  "dataset": "amazon-subsample-dense",
+  "tags": [
+    "adaptation",
+    "alpha-sweep",
+    "dense"
+  ],
+  "metric_count": 7,
+  "event_count": 4,
+  "artifacts": {
+    "config.json": "cd48b3a3883e741c997d2f3e839af9a6739b14f0864ebfd7d36bd3d80e9e0bd0",
+    "data\\alpha-sweep.csv": "718c2743380979c93e2d37ea167d5eaf2cea52b9129bf48439c7c4309ea5e244",
+    "events.csv": "1877224fb49be3d1d3828cb3e5f80cf77f954e2dccfc82c0a87ad7967e199eb8",
+    "metrics.csv": "61a0d0aaa32e35bd830f8f736e0b8b6a84f47ca2c185a824165643425d8d787f",
+    "run.log": "57086d20ba802626b8e02de817546407892c29fa64b50aba38dbaa77f413d7af"
+  },
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\gilal\\Downloads\\PFE_rec\\scripts\\dense_alpha_probe.py\", line 179, in main\n    _print(val_rows, test_rows, verdict)\n  File \"C:\\Users\\gilal\\Downloads\\PFE_rec\\scripts\\dense_alpha_probe.py\", line 221, in _print\n    print(\"\\nα-sweep NDCG@10 (higher = better):\")\n  File \"C:\\Users\\gilal\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u03b1' in position 2: character maps to <undefined>\n"
+}

@@ -1,0 +1,4 @@
+timestamp,level,stage,event,detail
+2026-08-27T20:35:17.099833+00:00,INFO,run,start,Explicit detector vs learned fusion gate (coherent drift)
+2026-08-27T20:42:57.741091+00:00,INFO,report,table_saved,learned-gate-comparison.csv
+2026-08-27T20:42:57.742092+00:00,INFO,run,end,completed

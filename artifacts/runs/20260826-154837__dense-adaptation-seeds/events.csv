@@ -1,0 +1,5 @@
+timestamp,level,stage,event,detail
+2026-08-26T15:48:37.113384+00:00,INFO,run,start,"Seed-robustness of CUSUM adaptive fusion, per scenario (coherent)"
+2026-08-26T15:49:32.756249+00:00,INFO,report,table_saved,adaptation-seed-robustness.csv
+2026-08-26T15:49:32.757246+00:00,INFO,report,table_saved,adaptation-paired-diffs.csv
+2026-08-26T15:49:32.766931+00:00,INFO,run,end,completed

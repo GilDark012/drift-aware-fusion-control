@@ -1,0 +1,30 @@
+{
+  "run_id": "20260819-053156__phase6-adaptive-fusion",
+  "task": "phase6-adaptive-fusion",
+  "description": "Compare α-policies (static/continuous/state abrupt|gradual)",
+  "status": "completed",
+  "started_at": "2026-08-19T05:31:56.257997Z",
+  "finished_at": "2026-08-19T05:32:12.564401Z",
+  "duration_seconds": 16.306404,
+  "git_commit": "e6f8d93dbc69541678a725339c2b5b88a07cf6b0",
+  "python_version": "3.11.4",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "seed": 42,
+  "dataset": "amazon-subsample",
+  "tags": [
+    "phase6",
+    "adaptive-fusion"
+  ],
+  "metric_count": 29,
+  "event_count": 10,
+  "artifacts": {
+    "config.json": "52d8cf4f3c0302193b659c596dc64ca3b6fb1887aacbb946a81b5212f729f72c",
+    "data\\policy-comparison.csv": "3706bce61b71afedf6317eef6f106e73ab2e3a966d9ddbb48d9166e1e2d29be2",
+    "events.csv": "fc5013f326567868e7f440a3204520ff52ed95147b0abf1b4e2bcddf61b1202f",
+    "figures\\alpha-policy-comparison-synthetic.png": "3d1907c4147fafaddeac4e2345f9f1ec4151cd80546700887ccd88c71f3de4df",
+    "figures\\alpha-trajectory-gradual-synthetic.png": "0ee9a69ddf30ef226a90cc048568d435ea5cfc9129d83c34df23ffbe7f6017a3",
+    "metrics.csv": "64dd6c2a807f221505ffb9f285b31b1665e2e34f0e1c3cded923fc62a136a308",
+    "run.log": "7b613aad6a29508e9ea3b5bcc851bf883f4009d533e61b0dbc5d97aa3175965e"
+  },
+  "error": null
+}

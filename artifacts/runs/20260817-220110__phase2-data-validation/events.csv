@@ -1,0 +1,7 @@
+timestamp,level,stage,event,detail
+2026-08-17T22:01:10.834460+00:00,INFO,run,start,"Certify processed Amazon splits: counts, leakage, drift ground truth"
+2026-08-17T22:01:10.834460+00:00,INFO,data,load_start,train/val/test parquet
+2026-08-17T22:01:18.432800+00:00,INFO,data,leakage_check,clean=True
+2026-08-17T22:01:18.432800+00:00,WARNING,data,drift_artifacts_check,usable_for_training=False
+2026-08-17T22:01:19.052086+00:00,INFO,report,figure_saved,user-activity-distribution.png
+2026-08-17T22:01:19.207572+00:00,ERROR,run,failed,MS is not supported as period frequency

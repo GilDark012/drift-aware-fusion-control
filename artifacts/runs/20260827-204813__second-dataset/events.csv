@@ -1,0 +1,5 @@
+timestamp,level,stage,event,detail
+2026-08-27T20:48:13.594416+00:00,INFO,run,start,Coherent-drift adaptation replicated on Books alone
+2026-08-27T20:48:17.135098+00:00,INFO,report,table_saved,second-dataset-means.csv
+2026-08-27T20:48:17.137534+00:00,INFO,report,table_saved,second-dataset-diffs.csv
+2026-08-27T20:48:17.137534+00:00,INFO,run,end,completed

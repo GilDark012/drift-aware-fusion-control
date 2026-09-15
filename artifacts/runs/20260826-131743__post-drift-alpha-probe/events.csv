@@ -1,0 +1,4 @@
+timestamp,level,stage,event,detail
+2026-08-26T13:17:43.577514+00:00,INFO,run,start,"Fixed-α sweep on injected streams, split pre/post onset (dense)"
+2026-08-26T13:17:53.083424+00:00,INFO,report,table_saved,post-drift-alpha-sweep.csv
+2026-08-26T13:17:53.085425+00:00,ERROR,run,failed,'charmap' codec can't encode character '\u03b1' in position 64: character maps to <undefined>

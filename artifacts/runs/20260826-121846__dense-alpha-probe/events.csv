@@ -1,0 +1,5 @@
+timestamp,level,stage,event,detail
+2026-08-26T12:18:46.301321+00:00,INFO,run,start,Does α>0 beat α=0 on a dense long-history cohort?
+2026-08-26T12:18:46.543774+00:00,INFO,model,train_start,11581 items
+2026-08-26T12:19:52.945711+00:00,INFO,report,table_saved,alpha-sweep.csv
+2026-08-26T12:19:52.972802+00:00,ERROR,run,failed,'charmap' codec can't encode character '\u03b1' in position 2: character maps to <undefined>

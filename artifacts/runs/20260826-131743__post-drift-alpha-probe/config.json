@@ -1,0 +1,22 @@
+{
+  "task": "post-drift-alpha-probe",
+  "description": "Fixed-α sweep on injected streams, split pre/post onset (dense)",
+  "params": {
+    "alphas": [
+      0.0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0
+    ],
+    "n_injected": 102
+  },
+  "tags": [
+    "diagnostic",
+    "alpha-sweep",
+    "post-drift"
+  ],
+  "seed": 42,
+  "dataset": "amazon-subsample-dense"
+}

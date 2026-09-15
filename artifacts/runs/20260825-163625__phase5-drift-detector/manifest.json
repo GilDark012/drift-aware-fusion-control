@@ -1,0 +1,30 @@
+{
+  "run_id": "20260825-163625__phase5-drift-detector",
+  "task": "phase5-drift-detector",
+  "description": "Persistence-aware detector: tune alarm rate on validation (H5/H6)",
+  "status": "completed",
+  "started_at": "2026-08-25T16:36:25.510076Z",
+  "finished_at": "2026-08-25T16:36:29.523635Z",
+  "duration_seconds": 4.013559,
+  "git_commit": "7e600cc39b00d3921248d4443656d9381154576b",
+  "python_version": "3.11.4",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "seed": 42,
+  "dataset": "amazon-subsample",
+  "tags": [
+    "phase5",
+    "detector"
+  ],
+  "metric_count": 9,
+  "event_count": 6,
+  "artifacts": {
+    "config.json": "1069ead8df0147983a472b0b2927e9c6bbc905e46f305aa8aadec29a17bd7442",
+    "data\\h6-strategy-by-stratum.csv": "a01da24eb7079285fab1e32b24d2a66acaae4759ddf58dfa197dc3f135b4d2fd",
+    "events.csv": "c65658b956b97d7b8feba7fe69dcfe8043060c5a4c1e637058844acf2e79d3d8",
+    "figures\\persistence-sweep.png": "eb4fe381c8b24f03d28980a8c18c9795c5a5853a2e93bb5004d7bf405b17a5d8",
+    "figures\\strategy-by-stratum.png": "90e45672a69a95845cc357bcc19dc519ecca03bd77551eea5094923c28245824",
+    "metrics.csv": "cc6225e821b32f9005e868e6a8d75fc171eb1463ced3de9f0787ce2f2874bf69",
+    "run.log": "53b9edbae6924d9f9da7dd61bab19b84b45626d6258f00bb8471e49b3c133f6b"
+  },
+  "error": null
+}

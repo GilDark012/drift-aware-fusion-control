@@ -1,0 +1,4 @@
+timestamp,step,split,metric,value,unit,context
+2026-08-26T14:07:11.741707+00:00,0,all,proposed_minus_static_mean,0.00030880260306061946,,
+2026-08-26T14:07:11.741707+00:00,0,all,proposed_minus_static_ci95,0.0004501511604072786,,
+2026-08-26T14:07:11.741707+00:00,0,all,win_rate,0.6666666666666666,,

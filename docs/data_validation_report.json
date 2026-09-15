@@ -1,0 +1,200 @@
+{
+  "total_rows": 3971952,
+  "split_fractions": {
+    "train": 0.6999998992938484,
+    "val": 0.09999994964692423,
+    "test": 0.2000001510592273
+  },
+  "splits": [
+    {
+      "split": "train",
+      "n_rows": 2780366,
+      "n_users": 127344,
+      "n_items": 589045,
+      "timestamp_min": "2014-01-01T00:00:31",
+      "timestamp_max": "2017-06-09T13:25:29",
+      "rating_mean": 4.46166116259514,
+      "rating_std": 0.982070691595791,
+      "category_counts": {
+        "Electronics": 1123068,
+        "Clothing_Shoes_and_Jewelry": 828658,
+        "Books": 828640
+      },
+      "user_activity": {
+        "entity": "user",
+        "count": 127344,
+        "min": 1,
+        "p05": 5.0,
+        "p25": 14.0,
+        "median": 20.0,
+        "mean": 21.833506093730367,
+        "p75": 26.0,
+        "p95": 44.0,
+        "p99": 70.0,
+        "max": 355
+      },
+      "item_activity": {
+        "entity": "item",
+        "count": 589045,
+        "min": 1,
+        "p05": 1.0,
+        "p25": 1.0,
+        "median": 2.0,
+        "mean": 4.720124948009065,
+        "p75": 4.0,
+        "p95": 14.0,
+        "p99": 49.0,
+        "max": 4314
+      }
+    },
+    {
+      "split": "val",
+      "n_rows": 397195,
+      "n_users": 81998,
+      "n_items": 183070,
+      "timestamp_min": "2017-06-09T13:25:32",
+      "timestamp_max": "2017-12-10T09:49:01.767000",
+      "rating_mean": 4.4130112413298255,
+      "rating_std": 1.040876125129058,
+      "category_counts": {
+        "Clothing_Shoes_and_Jewelry": 154977,
+        "Electronics": 145889,
+        "Books": 96329
+      },
+      "user_activity": {
+        "entity": "user",
+        "count": 81998,
+        "min": 1,
+        "p05": 1.0,
+        "p25": 2.0,
+        "median": 3.0,
+        "mean": 4.843959608770946,
+        "p75": 6.0,
+        "p95": 14.0,
+        "p99": 24.0,
+        "max": 89
+      },
+      "item_activity": {
+        "entity": "item",
+        "count": 183070,
+        "min": 1,
+        "p05": 1.0,
+        "p25": 1.0,
+        "median": 1.0,
+        "mean": 2.1696345660130003,
+        "p75": 2.0,
+        "p95": 6.0,
+        "p99": 17.0,
+        "max": 1341
+      }
+    },
+    {
+      "split": "test",
+      "n_rows": 794391,
+      "n_users": 98852,
+      "n_items": 286622,
+      "timestamp_min": "2017-12-10T09:50:48.762000",
+      "timestamp_max": "2018-12-30T23:59:44.026000",
+      "rating_mean": 4.422203927285178,
+      "rating_std": 1.043529434151629,
+      "category_counts": {
+        "Clothing_Shoes_and_Jewelry": 332426,
+        "Electronics": 287296,
+        "Books": 174669
+      },
+      "user_activity": {
+        "entity": "user",
+        "count": 98852,
+        "min": 1,
+        "p05": 1.0,
+        "p25": 3.0,
+        "median": 6.0,
+        "mean": 8.03616517622304,
+        "p75": 11.0,
+        "p95": 23.0,
+        "p99": 36.0,
+        "max": 149
+      },
+      "item_activity": {
+        "entity": "item",
+        "count": 286622,
+        "min": 1,
+        "p05": 1.0,
+        "p25": 1.0,
+        "median": 1.0,
+        "mean": 2.771563243575162,
+        "p75": 2.0,
+        "p95": 8.0,
+        "p99": 25.0,
+        "max": 2332
+      }
+    }
+  ],
+  "cross_split": {
+    "test_users": 98852,
+    "test_users_seen_in_train": 95429,
+    "test_cold_start_users": 3423,
+    "test_cold_start_user_rate": 0.034627523975235705,
+    "test_items": 286622,
+    "test_items_unseen_in_train": 139314,
+    "test_new_item_rate": 0.48605480388804767
+  },
+  "leakage": {
+    "train_max_ts": "2017-06-09T13:25:29",
+    "val_min_ts": "2017-06-09T13:25:32",
+    "val_max_ts": "2017-12-10T09:49:01.767000",
+    "test_min_ts": "2017-12-10T09:50:48.762000",
+    "boundaries_monotonic": true,
+    "duplicate_rows_across_splits": 0,
+    "is_clean": true
+  },
+  "drift_ground_truth": {
+    "onsets": [
+      {
+        "name": "D1",
+        "drift_type": "sudden",
+        "idx": 158878,
+        "idx_in_range": true,
+        "gt_timestamp": "2018-02-14T16:25:09.831000",
+        "test_timestamp_at_idx": "2018-02-14T16:25:09.831000",
+        "timestamp_matches": true
+      },
+      {
+        "name": "D2",
+        "drift_type": "gradual",
+        "idx": 397195,
+        "idx_in_range": true,
+        "gt_timestamp": "2018-05-25T13:27:16.074000",
+        "test_timestamp_at_idx": "2018-05-25T13:27:16.074000",
+        "timestamp_matches": true
+      },
+      {
+        "name": "D3",
+        "drift_type": "recurring",
+        "idx": 595793,
+        "idx_in_range": true,
+        "gt_timestamp": "2018-08-30T13:24:44.644000",
+        "test_timestamp_at_idx": "2018-08-30T13:24:44.644000",
+        "timestamp_matches": true
+      }
+    ],
+    "control_equals_test": true,
+    "drifted_rows_changed": 635506,
+    "columns_changed": {
+      "user_id": 0,
+      "item_id": 635492,
+      "category": 416286,
+      "preference_score": 0,
+      "timestamp": 0,
+      "user_idx": 0,
+      "item_idx": 0
+    },
+    "index_consistency_broken": true,
+    "changed_span_start": 158878,
+    "changed_span_end": 794390,
+    "usable_for_training": false
+  },
+  "warnings": [
+    "pre-generated test_drifted.parquet is index-inconsistent (item_id changed but item_idx unchanged) \u2014 not usable for training; controlled drift must be re-injected at the preference-sequence level"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "task": "p1-2-seed-robustness",
+  "description": "Detection/false-alarm CIs over injection seeds (sudden)",
+  "params": {
+    "seeds": 20,
+    "n_users": 300,
+    "operating_points": [
+      1.75,
+      2.0
+    ]
+  },
+  "tags": [
+    "p1-2",
+    "seeds",
+    "confidence-interval"
+  ],
+  "seed": 42,
+  "dataset": "amazon-subsample"
+}

@@ -1,0 +1,5 @@
+timestamp,level,stage,event,detail
+2026-08-26T09:41:26.522826+00:00,INFO,run,start,Our detector vs Page-Hinkley/CUSUM/ADWIN on the same divergence
+2026-08-26T09:41:28.412658+00:00,INFO,report,table_saved,detector-operating-points.csv
+2026-08-26T09:41:28.648151+00:00,INFO,report,figure_saved,detector-comparison-sudden.png
+2026-08-26T09:41:28.649147+00:00,INFO,run,end,completed

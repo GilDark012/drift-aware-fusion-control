@@ -1,0 +1,4 @@
+timestamp,level,stage,event,detail
+2026-08-25T16:28:31.017468+00:00,INFO,run,start,Drift signal D_u(t) via short_term_drift over the backbone
+2026-08-25T16:28:31.018911+00:00,INFO,drift,trajectories_start,signal=short_term_drift
+2026-08-25T16:28:32.430051+00:00,ERROR,run,failed,torch.cat(): expected a non-empty list of Tensors

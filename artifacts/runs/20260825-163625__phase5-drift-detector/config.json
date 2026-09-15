@@ -1,0 +1,20 @@
+{
+  "task": "phase5-drift-detector",
+  "description": "Persistence-aware detector: tune alarm rate on validation (H5/H6)",
+  "params": {
+    "signal": "short_term_drift",
+    "persistences": [
+      1,
+      3,
+      5,
+      8,
+      12
+    ]
+  },
+  "tags": [
+    "phase5",
+    "detector"
+  ],
+  "seed": 42,
+  "dataset": "amazon-subsample"
+}

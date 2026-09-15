@@ -1,0 +1,10 @@
+timestamp,step,split,metric,value,unit,context
+2026-08-25T16:36:27.149200+00:00,0,val,users_tuned,86.0,users,
+2026-08-25T16:36:27.297892+00:00,1,val,confirmed_per_1k,0.49875311720698257,,persistence=1
+2026-08-25T16:36:27.297892+00:00,3,val,confirmed_per_1k,0.0,,persistence=3
+2026-08-25T16:36:27.297892+00:00,5,val,confirmed_per_1k,0.0,,persistence=5
+2026-08-25T16:36:27.305905+00:00,8,val,confirmed_per_1k,0.0,,persistence=8
+2026-08-25T16:36:27.305905+00:00,12,val,confirmed_per_1k,0.0,,persistence=12
+2026-08-25T16:36:27.662613+00:00,0,val,chosen_confirmed_per_1k,0.0,,
+2026-08-25T16:36:27.662613+00:00,0,val,chosen_temporary_per_1k,4.488778054862843,,
+2026-08-25T16:36:27.662613+00:00,0,val,chosen_users_with_confirm,0.0,,

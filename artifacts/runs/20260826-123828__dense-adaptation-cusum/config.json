@@ -1,0 +1,16 @@
+{
+  "task": "dense-adaptation-cusum",
+  "description": "CUSUM-driven adaptive fusion vs static-0.8 and window-B (dense)",
+  "params": {
+    "top_k": 10,
+    "stable_alpha": 0.8,
+    "n_injected": 102
+  },
+  "tags": [
+    "adaptation",
+    "cusum",
+    "dense"
+  ],
+  "seed": 42,
+  "dataset": "amazon-subsample-dense"
+}

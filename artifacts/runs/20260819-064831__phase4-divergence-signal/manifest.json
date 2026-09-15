@@ -1,0 +1,36 @@
+{
+  "run_id": "20260819-064831__phase4-divergence-signal",
+  "task": "phase4-divergence-signal",
+  "description": "Drift signal D_u(t) via short_term_drift over the backbone",
+  "status": "completed",
+  "started_at": "2026-08-19T06:48:31.970548Z",
+  "finished_at": "2026-08-19T06:48:39.151515Z",
+  "duration_seconds": 7.180967,
+  "git_commit": "652dfa377d6de1a43f19a24d48af46cb180b0be4",
+  "python_version": "3.11.4",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "seed": 42,
+  "dataset": "amazon-subsample",
+  "tags": [
+    "phase4",
+    "divergence"
+  ],
+  "metric_count": 8,
+  "event_count": 11,
+  "artifacts": {
+    "config.json": "05a39b1f1e665ba3d2733cfcacf0eb4df5138092973d9f698f127d9e31258bfc",
+    "data\\divergence_population.parquet": "c654f6f1474804f58e565c96edabbbb0d14c7d5858a4fa3bf5216113db802b3e",
+    "events.csv": "1fbd0d182c0c3a5579050a43934069f48d93f08684a8283511023657011a17cf",
+    "figures\\divergence-distribution.png": "51423175a26110e031dedca89d63e6ec441659b487d835a6dfd4558a586c1213",
+    "figures\\population-category-effect.png": "6649540610f0192087cf05826424e9db355971199eff6481ca3c8641cc0002d9",
+    "figures\\trajectory-user-268.png": "b96388ca238f5cfdff03a8b1b86cd16cfd4f40c0d46b6916b97dcd9f73716425",
+    "figures\\trajectory-user-3553.png": "d848758577ed3687083f52a8147c4a5f623452faf57880634d7a2d2617510b7f",
+    "figures\\trajectory-user-615.png": "35d9a42fd6c83b325ec4d3278f066919c7ea780e8477d04b17286e4857821f16",
+    "figures\\trajectory-user-8678.png": "720c1dd7dc59716c7bed82aaa104c65e4247afbfee35238acef6ba7b9e854a2d",
+    "figures\\trajectory-user-948.png": "685b2758e6dc0d8b2b6f317c33e75913a4736b40f5031a9892c902fb51d8f3af",
+    "figures\\trajectory-user-9962.png": "048e4f1edf67645dbe738a2f07efb1d5aa31b99908a62d164f47a0643f05dd9c",
+    "metrics.csv": "3f533ccc31bc97557d3ebdcaed57ca1047101a1ea1804650ecf3294f00144889",
+    "run.log": "0a1729127401b6bc71a6a5358d74e3f806d92f1c9ff7d17544baca4ba9bd1a70"
+  },
+  "error": null
+}

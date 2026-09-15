@@ -1,0 +1,20 @@
+2026-08-19 08:48:52 | INFO     | lab.20260819-064852__phase7-inject-drift | [run] start Controlled sudden/gradual/recurring preference shifts + sanity
+2026-08-19 08:48:53 | INFO     | lab.20260819-064852__phase7-inject-drift | [injection] saved sudden -> injected_sudden.parquet
+2026-08-19 08:48:53 | INFO     | lab.20260819-064852__phase7-inject-drift | metric injected_users[all]=300 step=0
+2026-08-19 08:48:59 | INFO     | lab.20260819-064852__phase7-inject-drift | metric detection_rate[all]=0.045 step=0
+2026-08-19 08:48:59 | INFO     | lab.20260819-064852__phase7-inject-drift | metric false_alarm_rate[all]=0.01 step=0
+2026-08-19 08:48:59 | INFO     | lab.20260819-064852__phase7-inject-drift | metric median_detection_latency[all]=5.0 step=0
+2026-08-19 08:48:59 | INFO     | lab.20260819-064852__phase7-inject-drift | [report] figure_saved injection-sudden.png
+2026-08-19 08:48:59 | INFO     | lab.20260819-064852__phase7-inject-drift | [injection] saved gradual -> injected_gradual.parquet
+2026-08-19 08:48:59 | INFO     | lab.20260819-064852__phase7-inject-drift | metric injected_users[all]=300 step=0
+2026-08-19 08:49:06 | INFO     | lab.20260819-064852__phase7-inject-drift | metric detection_rate[all]=0.04 step=0
+2026-08-19 08:49:06 | INFO     | lab.20260819-064852__phase7-inject-drift | metric false_alarm_rate[all]=0.01 step=0
+2026-08-19 08:49:06 | INFO     | lab.20260819-064852__phase7-inject-drift | metric median_detection_latency[all]=12.0 step=0
+2026-08-19 08:49:06 | INFO     | lab.20260819-064852__phase7-inject-drift | [report] figure_saved injection-gradual.png
+2026-08-19 08:49:06 | INFO     | lab.20260819-064852__phase7-inject-drift | [injection] saved recurring -> injected_recurring.parquet
+2026-08-19 08:49:06 | INFO     | lab.20260819-064852__phase7-inject-drift | metric injected_users[all]=300 step=0
+2026-08-19 08:49:13 | INFO     | lab.20260819-064852__phase7-inject-drift | metric detection_rate[all]=0.05 step=0
+2026-08-19 08:49:13 | INFO     | lab.20260819-064852__phase7-inject-drift | metric false_alarm_rate[all]=0.01 step=0
+2026-08-19 08:49:13 | INFO     | lab.20260819-064852__phase7-inject-drift | metric median_detection_latency[all]=7.5 step=0
+2026-08-19 08:49:13 | INFO     | lab.20260819-064852__phase7-inject-drift | [report] figure_saved injection-recurring.png
+2026-08-19 08:49:13 | INFO     | lab.20260819-064852__phase7-inject-drift | [run] end completed

@@ -1,0 +1,5 @@
+timestamp,level,stage,event,detail
+2026-08-26T22:08:29.905712+00:00,INFO,run,start,Does α>0 beat α=0 on a dense long-history cohort?
+2026-08-26T22:08:30.131681+00:00,INFO,model,train_start,11581 items
+2026-08-26T22:09:44.215296+00:00,INFO,report,table_saved,alpha-sweep.csv
+2026-08-26T22:09:44.216297+00:00,INFO,run,end,completed

@@ -1,0 +1,55 @@
+# Données locales : jamais versionnées
+data/
+!data/README.md
+!data/**/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Environnements
+.venv/
+venv/
+env/
+.python-version
+
+# Outils
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Systèmes
+.DS_Store
+Thumbs.db
+
+# Modèles et checkpoints volumineux
+*.ckpt
+*.pt
+*.pth
+*.bin
+artifacts/**/checkpoints/
+
+# Secrets
+.env
+*.key
+
+# Scratch PDF page-preview renders
+tmp/
+
+# RecBole run outputs
+log/
+log_tensorboard/
+saved/
+
+# Word lock/temp files
+~$*

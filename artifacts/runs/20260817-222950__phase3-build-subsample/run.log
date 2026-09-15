@@ -1,0 +1,12 @@
+2026-08-18 00:29:50 | INFO     | lab.20260817-222950__phase3-build-subsample | [run] start Stratified evaluable-cohort subsample for fast iteration
+2026-08-18 00:29:50 | INFO     | lab.20260817-222950__phase3-build-subsample | [data] subsample_start data\interim\subsample
+2026-08-18 00:29:53 | INFO     | lab.20260817-222950__phase3-build-subsample | metric subsample_rows[train]=39943 step=0
+2026-08-18 00:29:53 | INFO     | lab.20260817-222950__phase3-build-subsample | metric unseen_item_rate[train]=0.0 step=0
+2026-08-18 00:29:53 | INFO     | lab.20260817-222950__phase3-build-subsample | metric subsample_rows[val]=11693 step=0
+2026-08-18 00:29:53 | INFO     | lab.20260817-222950__phase3-build-subsample | metric unseen_item_rate[val]=0.7763619259385958 step=0
+2026-08-18 00:29:53 | INFO     | lab.20260817-222950__phase3-build-subsample | metric subsample_rows[test]=81724 step=0
+2026-08-18 00:29:53 | INFO     | lab.20260817-222950__phase3-build-subsample | metric unseen_item_rate[test]=0.8064460868288386 step=0
+2026-08-18 00:29:53 | INFO     | lab.20260817-222950__phase3-build-subsample | metric selected_users[all]=3000 step=0
+2026-08-18 00:29:53 | INFO     | lab.20260817-222950__phase3-build-subsample | metric item_vocab[all]=32158 step=0
+2026-08-18 00:29:53 | DEBUG    | lab.20260817-222950__phase3-build-subsample | note: cohort pool (>= 20 test interactions): 7918 users; selected 3000
+2026-08-18 00:29:53 | INFO     | lab.20260817-222950__phase3-build-subsample | [run] end completed

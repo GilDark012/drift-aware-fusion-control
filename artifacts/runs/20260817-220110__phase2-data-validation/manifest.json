@@ -1,0 +1,29 @@
+{
+  "run_id": "20260817-220110__phase2-data-validation",
+  "task": "phase2-data-validation",
+  "description": "Certify processed Amazon splits: counts, leakage, drift ground truth",
+  "status": "failed",
+  "started_at": "2026-08-17T22:01:10.829460Z",
+  "finished_at": "2026-08-17T22:01:19.207572Z",
+  "duration_seconds": 8.378112,
+  "git_commit": null,
+  "python_version": "3.11.4",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "seed": 42,
+  "dataset": "amazon-processed",
+  "tags": [
+    "phase2",
+    "data-quality"
+  ],
+  "metric_count": 15,
+  "event_count": 6,
+  "artifacts": {
+    "config.json": "46bec4af0d5c9ac754142282922928062efe6f7ac93c2e1b4d816e5145cff078",
+    "events.csv": "cb66d8b283de1aa40de127ad140286fa9d956d42a8a2fda797c8dc6f82cdfd15",
+    "figures\\user-activity-distribution.png": "bcf6534c3c310c3b3f753be7282e2dd06a0d5365826415cd140306052cf34fed",
+    "metrics.csv": "c8efc38375d8828df6b7c5273ecc7bd22b3bcdcaaedcb0ac6d93ffc022795322",
+    "notes.txt": "ade5d74dcf4e50a7cfe8e817d8c6f57efd95cc3f8000c02183083acc6ae08781",
+    "run.log": "b8b1b90e516ee68073a833a47af5d5fa736abb3407e34fa2e85bb4e07d31541c"
+  },
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\gilal\\Downloads\\PFE_rec\\scripts\\validate_data.py\", line 94, in main\n    _save_figures(journal, validator)\n  File \"C:\\Users\\gilal\\Downloads\\PFE_rec\\scripts\\validate_data.py\", line 68, in _save_figures\n    journal.figure(figures.category_share_over_time(), \"category_share_over_time\")\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gilal\\Downloads\\PFE_rec\\src\\drift_reco\\data\\plots.py\", line 61, in category_share_over_time\n    full[\"period\"] = full[TIMESTAMP_COLUMN].dt.to_period(freq).dt.to_timestamp()\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gilal\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pandas\\core\\accessor.py\", line 112, in f\n    return self._delegate_method(name, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gilal\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pandas\\core\\indexes\\accessors.py\", line 132, in _delegate_method\n    result = method(*args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gilal\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pandas\\core\\indexes\\extension.py\", line 95, in method\n    result = attr(self._data, *args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gilal\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pandas\\core\\arrays\\datetimes.py\", line 1249, in to_period\n    return PeriodArray._from_datetime64(self._ndarray, freq, tz=self.tz)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gilal\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pandas\\core\\arrays\\period.py\", line 331, in _from_datetime64\n    data, freq = dt64arr_to_periodarr(data, freq, tz)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gilal\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pandas\\core\\arrays\\period.py\", line 1193, in dt64arr_to_periodarr\n    freq = Period._maybe_convert_freq(freq)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"period.pyx\", line 1765, in pandas._libs.tslibs.period._Period._maybe_convert_freq\n  File \"offsets.pyx\", line 4965, in pandas._libs.tslibs.offsets.to_offset\nValueError: MS is not supported as period frequency\n"
+}

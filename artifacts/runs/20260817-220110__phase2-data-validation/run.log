@@ -1,0 +1,23 @@
+2026-08-18 00:01:10 | INFO     | lab.20260817-220110__phase2-data-validation | [run] start Certify processed Amazon splits: counts, leakage, drift ground truth
+2026-08-18 00:01:10 | INFO     | lab.20260817-220110__phase2-data-validation | [data] load_start train/val/test parquet
+2026-08-18 00:01:18 | INFO     | lab.20260817-220110__phase2-data-validation | metric n_rows[train]=2780366 step=0
+2026-08-18 00:01:18 | INFO     | lab.20260817-220110__phase2-data-validation | metric n_users[train]=127344 step=0
+2026-08-18 00:01:18 | INFO     | lab.20260817-220110__phase2-data-validation | metric n_items[train]=589045 step=0
+2026-08-18 00:01:18 | INFO     | lab.20260817-220110__phase2-data-validation | metric median_interactions_per_user[train]=20.0 step=0
+2026-08-18 00:01:18 | INFO     | lab.20260817-220110__phase2-data-validation | metric n_rows[val]=397195 step=0
+2026-08-18 00:01:18 | INFO     | lab.20260817-220110__phase2-data-validation | metric n_users[val]=81998 step=0
+2026-08-18 00:01:18 | INFO     | lab.20260817-220110__phase2-data-validation | metric n_items[val]=183070 step=0
+2026-08-18 00:01:18 | INFO     | lab.20260817-220110__phase2-data-validation | metric median_interactions_per_user[val]=3.0 step=0
+2026-08-18 00:01:18 | INFO     | lab.20260817-220110__phase2-data-validation | metric n_rows[test]=794391 step=0
+2026-08-18 00:01:18 | INFO     | lab.20260817-220110__phase2-data-validation | metric n_users[test]=98852 step=0
+2026-08-18 00:01:18 | INFO     | lab.20260817-220110__phase2-data-validation | metric n_items[test]=286622 step=0
+2026-08-18 00:01:18 | INFO     | lab.20260817-220110__phase2-data-validation | metric median_interactions_per_user[test]=6.0 step=0
+2026-08-18 00:01:18 | INFO     | lab.20260817-220110__phase2-data-validation | metric test_cold_start_user_rate[test]=0.034627523975235705 step=0
+2026-08-18 00:01:18 | INFO     | lab.20260817-220110__phase2-data-validation | metric test_new_item_rate[test]=0.48605480388804767 step=0
+2026-08-18 00:01:18 | INFO     | lab.20260817-220110__phase2-data-validation | metric duplicate_rows_across_splits[all]=0 step=0
+2026-08-18 00:01:18 | INFO     | lab.20260817-220110__phase2-data-validation | [data] leakage_check clean=True
+2026-08-18 00:01:18 | WARNING  | lab.20260817-220110__phase2-data-validation | [data] drift_artifacts_check usable_for_training=False
+2026-08-18 00:01:18 | DEBUG    | lab.20260817-220110__phase2-data-validation | note: WARNING: pre-generated test_drifted.parquet is index-inconsistent (item_id changed but item_idx unchanged) — not usable for training; controlled drift must be re-injected at the preference-sequence level
+2026-08-18 00:01:19 | INFO     | lab.20260817-220110__phase2-data-validation | [report] figure_saved user-activity-distribution.png
+2026-08-18 00:01:19 | ERROR    | lab.20260817-220110__phase2-data-validation | run failed: MS is not supported as period frequency
+2026-08-18 00:01:19 | ERROR    | lab.20260817-220110__phase2-data-validation | [run] failed MS is not supported as period frequency

@@ -1,0 +1,169 @@
+{
+  "repo": "C:\\Users\\gilal\\Downloads\\PFE_rec",
+  "generated_at": "2026-08-25T18:40:22.701881",
+  "passed": 16,
+  "warnings": 0,
+  "errors": 0,
+  "checks": [
+    {
+      "id": "layout.structure",
+      "title": "Structure du dépôt (fichiers et dossiers obligatoires)",
+      "status": "pass",
+      "severity": "error",
+      "details": [
+        "tous les chemins requis sont présents"
+      ],
+      "hint": ""
+    },
+    {
+      "id": "layout.gitignore",
+      "title": ".gitignore couvre les données et les artefacts lourds",
+      "status": "pass",
+      "severity": "warning",
+      "details": [
+        "les motifs essentiels sont ignorés"
+      ],
+      "hint": ""
+    },
+    {
+      "id": "docs.core",
+      "title": "Documentation de projet (docs/ et README)",
+      "status": "pass",
+      "severity": "warning",
+      "details": [
+        "documentation présente et substantielle"
+      ],
+      "hint": ""
+    },
+    {
+      "id": "artifacts.runs",
+      "title": "Complétude des artefacts de chaque run",
+      "status": "pass",
+      "severity": "error",
+      "details": [
+        "41 run(s) complet(s) et documenté(s)"
+      ],
+      "hint": ""
+    },
+    {
+      "id": "artifacts.index",
+      "title": "Registre `artifacts/index.csv` synchronisé",
+      "status": "pass",
+      "severity": "warning",
+      "details": [
+        "41 run(s) référencé(s)"
+      ],
+      "hint": ""
+    },
+    {
+      "id": "code.docstrings",
+      "title": "Docstrings sur les modules, classes et fonctions publiques",
+      "status": "pass",
+      "severity": "warning",
+      "details": [
+        "tout le code public est documenté"
+      ],
+      "hint": ""
+    },
+    {
+      "id": "code.typing",
+      "title": "Annotations de type sur les signatures publiques",
+      "status": "pass",
+      "severity": "warning",
+      "details": [
+        "signatures publiques entièrement typées"
+      ],
+      "hint": ""
+    },
+    {
+      "id": "code.complexity",
+      "title": "Taille des fichiers et des fonctions (clean code)",
+      "status": "pass",
+      "severity": "warning",
+      "details": [
+        "granularité conforme"
+      ],
+      "hint": ""
+    },
+    {
+      "id": "code.no_print",
+      "title": "Aucun `print()` dans `src/` (journalisation via logging)",
+      "status": "pass",
+      "severity": "error",
+      "details": [
+        "journalisation propre"
+      ],
+      "hint": ""
+    },
+    {
+      "id": "code.no_absolute_paths",
+      "title": "Aucun chemin absolu en dur dans `src/`",
+      "status": "pass",
+      "severity": "error",
+      "details": [
+        "aucun chemin machine-dépendant"
+      ],
+      "hint": ""
+    },
+    {
+      "id": "code.pydantic",
+      "title": "Modèles Pydantic pour la configuration et les schémas",
+      "status": "pass",
+      "severity": "error",
+      "details": [
+        "configuration validée par Pydantic"
+      ],
+      "hint": ""
+    },
+    {
+      "id": "code.dry",
+      "title": "Absence de duplication de logique (DRY)",
+      "status": "pass",
+      "severity": "warning",
+      "details": [
+        "aucune duplication significative détectée"
+      ],
+      "hint": ""
+    },
+    {
+      "id": "tests.mirror",
+      "title": "Chaque module de `src/` a un test correspondant",
+      "status": "pass",
+      "severity": "warning",
+      "details": [
+        "97% des modules ont un test dédié"
+      ],
+      "hint": ""
+    },
+    {
+      "id": "tools.ruff",
+      "title": "Lint et formatage (`ruff`)",
+      "status": "pass",
+      "severity": "error",
+      "details": [
+        "`ruff` ne remonte aucun problème"
+      ],
+      "hint": ""
+    },
+    {
+      "id": "tools.mypy",
+      "title": "Vérification statique des types (`mypy`)",
+      "status": "pass",
+      "severity": "warning",
+      "details": [
+        "`mypy` ne remonte aucun problème"
+      ],
+      "hint": ""
+    },
+    {
+      "id": "tools.pytest",
+      "title": "Suite de tests (`pytest`)",
+      "status": "pass",
+      "severity": "error",
+      "details": [
+        "`pytest` ne remonte aucun problème"
+      ],
+      "hint": ""
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Exceptions documentées au contrôle de conformité.
+# Une exception reste visible dans le rapport : elle dégrade l'erreur en
+# avertissement, elle ne la masque pas. Toute entrée exige une justification.
+#
+# Exemple :
+# [exemptions]
+# "tests.mirror" = "Modules exploratoires de notebooks/ non testés unitairement, couverts par les tests d'intégration du pipeline."
+
+[exemptions]

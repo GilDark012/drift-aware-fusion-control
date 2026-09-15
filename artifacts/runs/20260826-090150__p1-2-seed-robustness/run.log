@@ -1,0 +1,7 @@
+2026-08-26 11:01:50 | INFO     | lab.20260826-090150__p1-2-seed-robustness | [run] start Detection/false-alarm CIs over injection seeds (sudden)
+2026-08-26 11:01:53 | INFO     | lab.20260826-090150__p1-2-seed-robustness | [report] table_saved seed-robustness.csv
+2026-08-26 11:01:53 | INFO     | lab.20260826-090150__p1-2-seed-robustness | metric detection_rate_mean[all]=0.675 step=175
+2026-08-26 11:01:53 | INFO     | lab.20260826-090150__p1-2-seed-robustness | metric detection_rate_ci95[all]=0.049 step=175
+2026-08-26 11:01:53 | INFO     | lab.20260826-090150__p1-2-seed-robustness | metric detection_rate_mean[all]=0.3333 step=200
+2026-08-26 11:01:53 | INFO     | lab.20260826-090150__p1-2-seed-robustness | metric detection_rate_ci95[all]=0.0327 step=200
+2026-08-26 11:01:53 | INFO     | lab.20260826-090150__p1-2-seed-robustness | [run] end completed
