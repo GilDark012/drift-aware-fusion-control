@@ -158,11 +158,11 @@ class DriftInjector:
 
         Seed = the candidate whose short-term rep is farthest from the user's
         established profile (so the shift is real and detectable); the cluster is that
-        seed plus its nearest neighbours in rep space (so it is *coherent* — engaging a
-        few of its items drives the short-term state toward the cluster, which then ranks
-        the rest highly). With a mid-frequency candidate pool this makes the new
-        preference short-term-predictable but stale for the long-term profile — the
-        regime where adaptation can help.
+        seed plus its nearest neighbours in rep space (so it is *coherent* — engaging
+        a few of its items drives the short-term state toward the cluster, which
+        then ranks the rest highly). With a mid-frequency candidate pool this makes
+        the new preference short-term-predictable but stale for the long-term
+        profile — the regime where adaptation can help.
         """
         cos = self.lookups.candidate_reps @ anchor / (
             self._rep_norm * (np.linalg.norm(anchor) + _EPS)
