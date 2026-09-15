@@ -1,7 +1,6 @@
 # Données locales : jamais versionnées
-/data/
+/data/*
 !/data/README.md
-!/data/**/.gitkeep
 
 # Python
 __pycache__/
